@@ -10,6 +10,6 @@
 
 ## Preguntas recurrentes de Programacion Orientada a Objetos
 
-## Preguntas recurrentes de React.js (2021)
+## Preguntas recurrentes de React.js (2022)
 
-## Preguntas recurrentes de Vue.js (2021)
+## Preguntas recurrentes de Vue.js (2022)
