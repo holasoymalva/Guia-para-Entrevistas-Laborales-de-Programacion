@@ -18,7 +18,11 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 * ¿Qué es SVG en HTML?
 * ¿Cómo se crean páginas web anidadas en HTML?
 * ¿Cuales son las diferencias entre las lista ordenadas y las lista desordenadas?
-* 
+* ¿Cual es la diferencia entre elementos de linea y de bloque?
+* ¿Podrias mencionar algunos ejemplos de elementos de linea y elementos de bloque?
+* ¿Por qué generalmente es una buena idea colocar CSS <link>s entre <head></head>y JS <script>s justo antes de </body>? ¿Conoces alguna excepción?
+* Describe la diferencia entre a cookie, sessionStoragey localStorage.
+* ¿Qué hace un doctype?
 
 ## Preguntas recurrentes de CSS
 * ¿Cuántas maneras diferentes tenemos para agregar estilos de CSS en HTML?
@@ -28,49 +32,23 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 * ¿Qué son Sass, Less y Stylus?
 * ¿Qué son Bootstrap, Materialize y Tailwind?
 * Explica como funciona el modelo de caja
-*  ¿Cuáles son las diferentes formas de ocultar un Elemento de HTML usando CSS?
-*  ¿Qué significa 'Important' en CSS y cuales son sus caracteristicas?
-*  ¿Cómo funcionan las animaciones en CSS?
+* ¿Cuáles son las diferentes formas de ocultar un Elemento de HTML usando CSS?
+* ¿Qué significa 'Important' en CSS y cuales son sus caracteristicas?
+* ¿Cómo funcionan las animaciones en CSS?
+* ¿Cuál es la diferencia entre CSS Grid y Flexbox? ¿Cuándo usarías uno sobre el otro?
+* ¿Cuál es la diferencia entre CSS Grid y Flexbox? ¿Cuándo usarías uno sobre el otro?
+* ¿Puedes dar un ejemplo de una pseudo clase? ¿Puede proporcionar un caso de uso de ejemplo para una pseudo clase?
+* ¿Porque se dice que css funciona en cascada?
 
 ## Preguntas recurrentes de Javascript
-*
-*
-*
-*
-*
-*
-*
+
 
 ## Preguntas recurrentes de Redes y Servicios
-*
-*
-*
-*
-*
-*
-*
+
 
 ## Preguntas recurrentes de Programacion Orientada a Objetos
-*
-*
-*
-*
-*
-*
-*
-*
-*
+
 
 ## Preguntas recurrentes de React.js (2022)
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
+
 ## Preguntas recurrentes de Vue.js (2022)
