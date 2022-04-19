@@ -3,6 +3,7 @@
 El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repasar conociminetos necesarios para un puesto como desarrollador Front-End, de la misma manera te puede servir para aplicar entrevistras laborales a posibles candidatos para tu empresa, emprendimiento o proyecto para el cual necesites aplicar una entrevista de FrontEnd.🙂
 
 ## Preguntas recurrentes de GIT
+
 * ¿Qué es un 'Sistema de control de versiones'? 
 * ¿Que es Git?
 * ¿Que diferencias hay entre Git y Github?
@@ -13,6 +14,7 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 * ¿Qué diferencias hay entre Git Merge y Git Rebase?
 
 ## Preguntas recurrentes de HTML
+
 * ¿Qué son los atributos en HTML?
 * ¿Qué es HTML semántico? ¿Y, cómo funciona?
 * ¿Qué es SVG en HTML?
@@ -25,6 +27,7 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 * ¿Qué hace un doctype?
 
 ## Preguntas recurrentes de CSS
+
 * ¿Cuántas maneras diferentes tenemos para agregar estilos de CSS en HTML?
 * ¿Cuál concideras es la manera adecuada de incluir estilo CSS en HTML?
 * ¿Que es un Selector en CSS?
@@ -42,6 +45,13 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 
 ## Preguntas recurrentes de Javascript
 
+* ¿Cuáles son los distintos tipos de datos en JavaScript?
+* ¿Qué son las devoluciónes de llamada (tambien conocidas cómo callbacks) en JavaScript?
+* ¿Cuál es la diferencia entre declaración de función y expresión de función?
+* ¿Qué entiendes por Cookies en JavaScript? 
+* ¿Qué son las Closures en JavaScript?
+* ¿Qué son las importaciones y exportaciones en JavaScript?
+* ¿Cuál es la diferencia entre Indefinido(Undefined), No declarado(Undeclared) y Nulo(Null) en JavaScript?
 
 ## Preguntas recurrentes de Redes y Servicios
 
@@ -50,5 +60,14 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 
 
 ## Preguntas recurrentes de React.js (2022)
+
+* ¿Qué es JSX?
+* ¿Qué es el DOM virtual?
+* ¿Qué son las extensiones de React? Nombra algunos de ellos.
+* ¿Qué es un evento en React? ¿Cómo se crea uno?
+* ¿Qué son los componentes en ReactJS?
+* ¿Qué es un Estado en React? ¿Cómo lo implementas?
+* ¿Qué es un orden superior y componentes puros en React?
+* ¿Cómo se implementa React Routing?
 
 ## Preguntas recurrentes de Vue.js (2022)
