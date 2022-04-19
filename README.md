@@ -22,7 +22,7 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 * ¿Cuales son las diferencias entre las lista ordenadas y las lista desordenadas?
 * ¿Cual es la diferencia entre elementos de linea y de bloque?
 * ¿Podrias mencionar algunos ejemplos de elementos de linea y elementos de bloque?
-* ¿Por qué generalmente es una buena idea colocar CSS ```<link>``` s entre ``<head></head>`` y JS ```<script>``` s justo antes de ```</body>``` ? ¿Conoces alguna excepción?
+* ¿Por qué generalmente es una buena idea colocar ```<link>```'s de CSS entre ``<head></head>`` y ```<script>```'s de Javascripts justo antes de ```</body>``` ? ¿Conoces alguna excepción?
 * Describe la diferencia entre a cookie, sessionStoragey localStorage.
 * ¿Qué hace un doctype?
 
