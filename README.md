@@ -1,6 +1,7 @@
 # Entrevistas de Front End
+<img src="./readme-assets/entrevista.png" alt="readme-title" width="100%"/>
 
-El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repasar conociminetos necesarios para un puesto como desarrollador Front-End, de la misma manera te puede servir para aplicar entrevistras laborales a posibles candidatos para tu empresa, emprendimiento o proyecto para el cual necesites aplicar una entrevista de FrontEnd.🙂
+El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repasar conocimientos necesarios para un puesto como desarrollador Front-End, de la misma manera te puede servir para aplicar entrevistas laborales a posibles candidatos para tu empresa, emprendimiento o proyecto para el cual necesites aplicar una entrevista de Front-End.🙂
 
 ## indice
 
