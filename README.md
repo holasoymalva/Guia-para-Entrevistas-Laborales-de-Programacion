@@ -67,6 +67,46 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 
 ## Preguntas recurrentes de Programacion Orientada a Objetos
 
+* ¿Cuál es la diferencia entre Programación estructurada y programación orientada a objetos?
+* ¿Qué es la Programación Orientada a Objetos?
+* ¿Por qué usar OOP?
+* ¿Cuáles son las principales características de los OOP?
+* ¿Qué es un objeto?
+* ¿Qué es una clase?
+* ¿Cuál es la diferencia entre una clase y una estructura?
+* ¿Puede llamar al método de la clase base sin crear una instancia?
+* ¿Cuál es la diferencia entre una clase y un objeto?
+* ¿Qué es la herencia?
+* ¿Cuáles son los diferentes tipos de herencia?
+* ¿Cuál es la diferencia entre herencia múltiple y multinivel?
+* ¿Qué es la herencia híbrida?
+* ¿Qué es la herencia jerárquica?
+* ¿Cuáles son las limitaciones de la herencia?
+* ¿Qué es una superclase?
+* ¿Qué es una subclase?
+* ¿Qué es el polimorfismo?
+* ¿Qué es el polimorfismo estático?
+* ¿Qué es el polimorfismo dinámico?
+* ¿Qué es la sobrecarga de métodos?
+* ¿Qué es la anulación de métodos?
+* ¿Qué es la sobrecarga de operadores?
+* Diferenciar entre sobrecarga y anulación.
+* ¿Qué es la encapsulación?
+* ¿Qué son los 'especificadores de acceso'?
+* ¿Qué es la abstracción de datos?
+* ¿Cómo se logra la abstracción de datos?
+* ¿Qué es una clase abstracta?
+* ¿Puedes crear una instancia de una clase abstracta?
+* ¿Qué es una interfaz?
+* Diferenciar entre abstracción y encapsulación de datos.
+* ¿Qué son las funciones virtuales?
+* ¿Qué son las funciones virtuales puras?
+* ¿Qué es un constructor?
+* ¿Qué es un destructor?
+* Tipos de constructores
+* ¿Qué es un constructor de copias?
+
+
 
 ## Preguntas recurrentes de React.js (2022)
 
