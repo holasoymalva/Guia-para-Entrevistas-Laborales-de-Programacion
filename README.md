@@ -56,12 +56,32 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 ## Preguntas recurrentes de Javascript
 
 * ¿Cuáles son los distintos tipos de datos en JavaScript?
+* ¿Cuál es la diferencia entre los operadores “==” y “===”?
+* ¿Qué es la coerción implícita de tipos en javascript?
+* ¿Es javascript un lenguaje de tipo estático o de tipo dinámico?
+* ¿Qué es la propiedad NaN en JavaScript?
+* ¿Qué es el paso por valor y el paso por referencia?
+* ¿Qué son lasfunciones de orden superior en javascript?
+* Explica los métodos call(), apply() y bind().
+* ¿Qué es Currying en javascript?
+* Explique el alcance y la cadena de alcance en javascript.
+* ¿Qué son los prototipos de objetos?
 * ¿Qué son las devoluciónes de llamada (tambien conocidas cómo callbacks) en JavaScript?
 * ¿Cuál es la diferencia entre declaración de función y expresión de función?
 * ¿Qué entiendes por Cookies en JavaScript? 
 * ¿Qué son las Closures en JavaScript?
+* ¿Qué es DOM?
 * ¿Qué son las importaciones y exportaciones en JavaScript?
 * ¿Cuál es la diferencia entre Indefinido(Undefined), No declarado(Undeclared) y Nulo(Null) en JavaScript?
+* ¿Cuál es el uso de una función constructora en javascript?
+* ¿Qué son las funciones de flecha?
+* Diferencias entre declarar variables usando var, let y const.
+* ¿Qué es el parámetro ```rest``` y el operador ```spread```?
+* ¿Para qué sirven las promesas en javascript?
+* ¿Qué son las clases en javascript?
+* ¿Qué son las funciones generadoras?
+* ¿Qué es la destrucción de objetos?
+* ¿Qué es una zona muerta temporal?
 
 ## Preguntas recurrentes de Redes y Servicios
 
