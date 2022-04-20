@@ -30,9 +30,9 @@ El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repa
 * ¿Qué es HTML semántico? ¿Y, cómo funciona?
 * ¿Qué es SVG en HTML?
 * ¿Cómo se crean páginas web anidadas en HTML?
-* ¿Cuales son las diferencias entre las lista ordenadas y las lista desordenadas?
-* ¿Cual es la diferencia entre elementos de linea y de bloque?
-* ¿Podrias mencionar algunos ejemplos de elementos de linea y elementos de bloque?
+* ¿Cuáles son las diferencias entre las lista ordenadas y las lista desordenadas?
+* ¿Cuál es la diferencia entre elementos de linea y de bloque?
+* ¿Podrías mencionar algunos ejemplos de elementos de linea y elementos de bloque?
 * ¿Por qué generalmente es una buena idea colocar ```<link>```'s de CSS entre ``<head></head>`` y ```<script>```'s de Javascripts justo antes de ```</body>``` ? ¿Conoces alguna excepción?
 * Describe la diferencia entre a cookie, sessionStoragey localStorage.
 * ¿Qué hace un doctype?
