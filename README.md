@@ -2,6 +2,15 @@
 
 El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repasar conociminetos necesarios para un puesto como desarrollador Front-End, de la misma manera te puede servir para aplicar entrevistras laborales a posibles candidatos para tu empresa, emprendimiento o proyecto para el cual necesites aplicar una entrevista de FrontEnd.🙂
 
+## indice
+
+* [Preguntas recurrentes de GIT](https://github.com/NiceDevs/Entrevistas-Front-End#preguntas-recurrentes-de-git)
+* [Preguntas recurrentes de HTML](https://github.com/NiceDevs/Entrevistas-Front-End#preguntas-recurrentes-de-html)
+* [Preguntas recurrentes de css](https://github.com/NiceDevs/Entrevistas-Front-End#preguntas-recurrentes-de-css)
+* [Preguntas recurrentes de Javascript](https://github.com/NiceDevs/Entrevistas-Front-End#preguntas-recurrentes-de-javascript)
+* [Pruebas Tecnicas]()
+
+
 ## Preguntas recurrentes de GIT
 
 * ¿Qué es un 'Sistema de control de versiones'? 
@@ -70,4 +79,37 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 * ¿Qué es un orden superior y componentes puros en React?
 * ¿Cómo se implementa React Routing?
 
-## Preguntas recurrentes de Vue.js (2022)
+##  Pruebas Tecnicas
+
+Ejercicios de programación 
+
+## Prueba de pensamiento Logico
+
+Ana, Beatriz y Carmen. Una es tenista, otra gimnasta y otra nadadora. La gimnasta, la más baja de las tres, es soltera. Ana, que es suegra de Beatriz, es más alta que la tenista. ¿Qué deporte practica cada una? . Desarrolla tu respuesta.
+
+
+
+## PruebaA1.js
+
+Dada una cadena llamada String , encuentra la longitud de la subcadena más larga sin caracteres repetidos.
+
+
+Ejemplo 1:
+```
+Entreada: String = "waspspwwa"
+Salida: 4
+Subcadena "wasp" longitud 4
+```
+
+Ejemplo 2:
+```
+Entrada: String = "bbbbb"
+Salida: 1
+La respuesta es "b", con una longitud de 1.
+```
+
+Restricciones:
+
+La longitud de String sera mayo a 0, y consta de letras, dígitos, símbolos y espacios en inglés.
+
+[Solucion](https://github.com/NiceDevs/Prueba-Entrevista-Tecnica-Javascript/blob/main/pruebas/01-prueba-A1.js)
