@@ -8,6 +8,7 @@ El sigiuente es un proyecto abierto que te permitira estudiar, practicar y repas
 * [Preguntas recurrentes de HTML](https://github.com/NiceDevs/Entrevistas-Front-End#preguntas-recurrentes-de-html)
 * [Preguntas recurrentes de css](https://github.com/NiceDevs/Entrevistas-Front-End#preguntas-recurrentes-de-css)
 * [Preguntas recurrentes de Javascript](https://github.com/NiceDevs/Entrevistas-Front-End#preguntas-recurrentes-de-javascript)
+* [Preguntas recurrentes de Programacion Orientada a Objetos](https://github.com/NiceDevs/Entrevistas-Front-End/blob/main/README.md#preguntas-recurrentes-de-programacion-orientada-a-objetos)
 * [Pruebas Tecnicas](https://github.com/NiceDevs/Entrevistas-Front-End#pruebas-tecnicas)
 
 
