@@ -1,4 +1,4 @@
-# Entrevistas de Front End
+# Guia para Entrevistas Laborales de Front End
 <img src="./readme-assets/entrevista.png" alt="readme-title" width="100%"/>
 
 El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repasar conocimientos necesarios para un puesto como desarrollador Front-End, de la misma manera te puede servir para aplicar entrevistas laborales a posibles candidatos para tu empresa, emprendimiento o proyecto para el cual necesites aplicar una entrevista de Front-End.🙂
