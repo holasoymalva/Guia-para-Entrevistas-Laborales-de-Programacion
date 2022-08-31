@@ -143,15 +143,14 @@ El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repa
 
 ##  Pruebas Tecnicas
 
-Ejercicios de programación 
+La prueba tecnica es un reto en el cual el equipo encargado de evaluarte decidira que tipo de reto ponerte para si ver, cuales son tus conocimientos practicos y como los aplicas aun posible proyecto real.
 
-## Prueba de pensamiento Logico
+### Prueba de pensamiento Logico
 
 Ana, Beatriz y Carmen. Una es tenista, otra gimnasta y otra nadadora. La gimnasta, la más baja de las tres, es soltera. Ana, que es suegra de Beatriz, es más alta que la tenista. ¿Qué deporte practica cada una? . Desarrolla tu respuesta.
 
 
-
-## PruebaA1.js
+### Prueb Tecnica con js
 
 Dada una cadena llamada String , encuentra la longitud de la subcadena más larga sin caracteres repetidos.
 
@@ -175,3 +174,33 @@ Restricciones:
 La longitud de String sera mayo a 0, y consta de letras, dígitos, símbolos y espacios en inglés.
 
 [Solucion](https://github.com/NiceDevs/Prueba-Entrevista-Tecnica-Javascript/blob/main/pruebas/01-prueba-A1.js)
+
+### Prueba Tecnica UI
+
+**Reto** Crea un nuevo Repositorio en Github llamado "reto-ui" en el cual debera desarrollar siguiendo los siguientes puntos:
+
+* Debera hacer uso de Sass como pre-procesador de codigo.
+* Debera documentar su proyecto en Github.
+* Debera hacer uso de buenas practicas.
+* Contara con un tiempo maximo de 3 dias para mostrar un avance.
+* Debera dividir su avance por objetivos realista.
+* Podra estar en contacto con el equipo tecnico si surgen dudas.
+
+![alt text](https://cdn.dribbble.com/userupload/3352469/file/original-80206d1f2d56f0f532ab46e01998e0eb.png?compress=1&resize=1024x768)
+
+
+
+## Author
+Created by Malvabombom.
+
+[![in]][in-link] [![ig]][ig-link] [![tt]][tt-link]
+
+
+[in]: https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white
+[ig]: https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white
+[fb]: https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white
+[tt]: https://img.shields.io/badge/tiktok-000000?style=flat-square&logo=tiktok&logoColor=white
+
+[in-link]: https://www.linkedin.com/in/martin-manriquez-899877177/
+[ig-link]: https://www.instagram.com/malvabombom/
+[tt-link]: https://www.tiktok.com/@malvabombom
