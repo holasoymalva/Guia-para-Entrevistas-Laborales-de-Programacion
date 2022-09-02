@@ -186,7 +186,7 @@ La longitud de String sera mayo a 0, y consta de letras, dígitos, símbolos y e
 * Debera dividir su avance por objetivos realista.
 * Podra estar en contacto con el equipo tecnico si surgen dudas.
 
-![alt text](https://cdn.dribbble.com/userupload/3352469/file/original-80206d1f2d56f0f532ab46e01998e0eb.png?compress=1&resize=1024x768)
+![alt text](https://cdn.dribbble.com/users/4857273/screenshots/18069146/media/416e1060ad426ea1194a8d44d1bf7815.png?compress=1&resize=800x600&vertical=top)
 
 
 
