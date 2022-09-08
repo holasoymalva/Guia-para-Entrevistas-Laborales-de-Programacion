@@ -150,7 +150,25 @@ La prueba tecnica es un reto en el cual el equipo encargado de evaluarte decidir
 Ana, Beatriz y Carmen. Una es tenista, otra gimnasta y otra nadadora. La gimnasta, la más baja de las tres, es soltera. Ana, que es suegra de Beatriz, es más alta que la tenista. ¿Qué deporte practica cada una? . Desarrolla tu respuesta.
 
 
-### Prueba Tecnica con Javascript
+### Prueba Tecnica con Javascript / Java / Python / C++
+
+Durante este tipo de pruebas, las empresas ponen a prueba tus conocimientos basicos de logica de programacion y resolucion de problemas a trabes de diferentes problemas y casos a resolver utilizando las estructuras de datos y algoritmos para ayar una solucion optima.
+
+Los temas que suelen venir en esta fase son: 
+* Estructura de datos:
+  * Pilas 
+  * Colas
+  * Listas
+  * Arreglos
+  * Mapas
+  * Arboles
+  * Grafos
+* Algoritmos: 
+  * Recursion
+  * Busqueda
+  * Ordenamiento
+  * Backtraking
+  
 
 Dada una cadena llamada String , encuentra la longitud de la subcadena más larga sin caracteres repetidos.
 
