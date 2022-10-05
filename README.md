@@ -86,6 +86,8 @@ El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repa
 
 ## Preguntas recurrentes de Redes y Servicios
 
+* ¿Qué es una API?
+* ¿Cuál es el uso qué se les da a las API's?
 
 ## Preguntas recurrentes de Programacion Orientada a Objetos
 
