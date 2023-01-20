@@ -12,6 +12,37 @@ Es importante tener en cuenta que también existe un proceso llamado evento capt
 
 En resumen, el evento bubbling es un proceso en el que un evento se propaga a través de los elementos padres hasta llegar al elemento raíz del documento. Esto permite agregar un evento a un elemento padre y que se active cuando el evento ocurre en un elemento hijo.
 
+``` html
+<body>
+    <h2>Evento Bubbling en Javascript</h2>
+  
+    <div id="parent">
+        <button>
+            <h2>Parent</h2>
+        </button>
+        <button id="child">
+  
+            <p>Child</p>
+  
+        </button>
+    </div><br>
+  
+  
+    <script>
+        document.getElementById(
+        "child").addEventListener("click", function () {
+            alert("You clicked the Child element!");
+        }, false);
+          
+        document.getElementById(
+        "parent").addEventListener("click", function () {
+            alert("You clicked the parent element!");
+        }, false);
+    </script>
+  
+</body>
+```
+
 ## ¿Cómo funciona el hoisting en JavaScript?
 
 ## ¿Qué es un closure en JavaScript y cómo se utiliza?
