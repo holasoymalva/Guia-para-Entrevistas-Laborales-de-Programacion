@@ -163,4 +163,69 @@ console.log(localVariable); // ReferenceError: localVariable is not defined
 ## ¿Cómo manejas errores en JavaScript y cómo te aseguras de que tu código sea resistente a fallos?
 
 
-# Preguntas de Java que me han hecho en entrevistas laborales
+# Preguntas de Java que te podrían hacer en entrevistas laborales
+
+## ¿Qué es la herencia en Java? 
+
+La herencia es un mecanismo en Java que permite que una clase herede los atributos y métodos de otra clase. Esto significa que una clase puede heredar todo el comportamiento de otra clase y agregar su propio comportamiento adicional.
+
+``` java
+class Vehicle {
+    int wheels;
+    void move() {
+        System.out.println("Moving on " + wheels + " wheels");
+    }
+}
+class Car extends Vehicle {
+    int doors;
+    void honk() {
+        System.out.println("Beep beep!");
+    }
+}
+```
+
+## ¿Qué es una interfaz en Java? 
+
+Una interfaz es una especie de "contrato" que especifica los métodos que una clase debe implementar. Una interfaz no tiene cuerpo de método, sólo tiene la declaración de métodos.
+
+``` java
+interface Shape {
+    void draw();
+}
+class Circle implements Shape {
+    public void draw() {
+        System.out.println("Drawing a circle");
+    }
+}
+```
+
+## ¿Puedes explicar cómo funciona el manejo de excepciones en Java? 
+
+El manejo de excepciones es un mecanismo en Java que nos permite detectar y manejar situaciones inesperadas en nuestro código. Esto incluye errores de sintaxis, errores de lógica, errores de entrada/salida, entre otros.
+Java proporciona una jerarquía de excepciones para clasificar y manejar distintos tipos de excepciones.
+
+``` java
+try {
+    // código que puede generar una excepción
+} catch (ExceptionType e) {
+    // código para manejar la excepción
+}
+```
+
+## ¿Cómo funciona la sobrecarga de métodos en Java? 
+
+La sobrecarga de métodos permite que una clase tenga varios métodos con el mismo nombre, pero con distintos parámetros. Esto nos permite crear métodos con distintas funcionalidades y usarlos según el contexto.
+
+
+## ¿Puedes explicar cómo funciona el manejo de excepciones en Java?
+## ¿Cómo funciona la sobrecarga de métodos en Java?
+## ¿Qué es una interfaz en Java y cómo se utiliza?
+## ¿Puedes explicar cómo funciona la herencia en Java?
+## ¿Puedes dar un ejemplo de una clase abstracta en Java?
+## ¿Qué es una colección en Java y puedes nombrar algunos de los tipos de colecciones disponibles?
+## ¿Puedes explicar cómo funciona el polimorfismo en Java?
+## ¿Puedes explicar cómo funciona el Garbage Collector en Java?
+## ¿Puedes nombrar algunas de las características de la programación orientada a objetos en Java?
+## ¿Puedes explicar cómo funciona el concepto de multithreading en Java?
+
+Recuerda que estas son solo algunas de las preguntas que podrían hacerte, pero es importante estar preparado para responder preguntas específicas relacionadas con tus habilidades y experiencia en Java.
