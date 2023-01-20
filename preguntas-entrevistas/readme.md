@@ -133,6 +133,25 @@ Los closures son una característica importante de JavaScript que permite el acc
 
 ## ¿Cómo manejas el alcance de las variables en JavaScript?
 
+En JavaScript, existen dos tipos de alcance: el alcance global y el alcance de bloque.
+
+Un ejemplo de alcance global es cuando declaras una variable fuera de cualquier función o bloque. Esta variable está disponible en todo el código y puede ser accedida o modificada desde cualquier lugar.
+
+``` javascript
+let globalVariable = "Soy una variable global";
+console.log(globalVariable); // "Soy una variable global"
+```
+
+Por otro lado, un ejemplo de alcance de bloque es cuando declaras una variable dentro de un bloque de código, como una función o un bucle. Esta variable solo está disponible dentro del bloque y no puede ser accedida o modificada desde fuera del mismo.
+
+``` javascript
+if(true) {
+  let localVariable = "Soy una variable local";
+  console.log(localVariable); // "Soy una variable local"
+}
+console.log(localVariable); // ReferenceError: localVariable is not defined
+```
+
 ## ¿Qué es una promesa en JavaScript y cómo se utiliza?
 
 ## ¿Cómo funciona el sistema de módulos en JavaScript?
