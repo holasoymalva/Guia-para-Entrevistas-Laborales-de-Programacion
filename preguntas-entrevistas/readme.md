@@ -89,6 +89,48 @@ En conclusión, el hoisting es un mecanismo en JavaScript que eleva las declarac
 
 ## ¿Qué es un closure en JavaScript y cómo se utiliza?
 
+Un closure es una función que se crea dentro de otra función y tiene acceso a las variables y funciones de la función padre. Un closure es capaz de recordar el estado de las variables y funciones de la función padre, incluso después de que la función padre haya terminado de ejecutarse.
+
+Veamos un ejemplo:
+
+``` Javascript
+function createCounter() {
+  let count = 0;
+  return function() {
+    return count++;
+  }
+}
+
+const counter = createCounter();
+console.log(counter()); // 0
+console.log(counter()); // 1
+console.log(counter()); // 2
+```
+
+
+En este ejemplo, la función createCounter crea una variable count con valor inicial de 0 y retorna una función anónima. La función retornada tiene acceso a la variable count y la retorna y la incrementa en cada llamada.
+La variable counter guarda el resultado de la función createCounter y cada vez que se llama a la variable counter se retorna el valor actual de count y se incrementa.
+
+Otro ejemplo puede ser el de una función que recibe un valor y retorna una función que recibe otro valor y retorna la suma de ambos valores:
+
+
+``` Javascript
+function sum(x) {
+  return function(y) {
+    return x + y;
+  }
+}
+const add5 = sum(5);
+console.log(add5(3)); // 8
+console.log(add5(4)); // 9
+```
+
+Los closures son muy útiles para evitar global scope pollution, encapsulando variables y funciones dentro de funciones y permitiendo el acceso solo a través de las funciones retornadas. También se usan para crear funciones currying, y para implementar funciones de orden superior.
+
+Los closures son una característica importante de JavaScript que permite el acceso a variables y funciones de la función padre, incluso después de que esta haya terminado de ejecutarse, permitiendo encapsulamiento y reuso de código.
+
+
+
 ## ¿Cómo manejas el alcance de las variables en JavaScript?
 
 ## ¿Qué es una promesa en JavaScript y cómo se utiliza?
