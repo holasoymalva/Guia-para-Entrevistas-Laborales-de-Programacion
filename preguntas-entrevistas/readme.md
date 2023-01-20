@@ -45,6 +45,48 @@ En resumen, el evento bubbling es un proceso en el que un evento se propaga a tr
 
 ## ¿Cómo funciona el hoisting en JavaScript?
 
+En JavaScript, el hoisting es un mecanismo que eleva las declaraciones de variables y funciones al principio del ámbito en el que se encuentran. Esto significa que, independientemente de dónde se declara una variable o función, su declaración se moverá al principio del ámbito.
+
+Veamos un ejemplo:
+``` javascript
+console.log(x);
+var x = 5;
+```
+En este caso, el hoisting eleva la declaración de la variable x al principio del bloque de código, lo que significa que el código se ejecuta como si fuera:
+
+``` javascript
+var x;
+console.log(x);
+x = 5;
+```
+
+Y en este caso, JavaScript retorna undefined, debido a que la variable x ha sido declarada pero no tiene un valor asignado.
+
+Otro ejemplo, con las funciones
+
+``` javascript
+sum(2,3);
+function sum(a,b){
+  return a+b;
+}
+```
+
+En este caso, el hoisting eleva la declaración de la función sum al principio del bloque de código, lo que significa que el código se ejecuta como si fuera:
+
+``` javascript
+function sum(a,b){
+  return a+b;
+}
+sum(2,3);
+```
+
+Y en este caso, JavaScript retorna 5 como resultado de la suma de 2+3.
+
+Es importante tener en cuenta que el hoisting solo afecta a las declaraciones, no a las asignaciones. Por lo tanto, si una variable ya ha sido declarada previamente, su valor no será reasignado al principio del ámbito.
+
+En conclusión, el hoisting es un mecanismo en JavaScript que eleva las declaraciones de variables y funciones al principio del ámbito en el que se encuentran, lo que puede afectar a nuestra lógica de programación.
+
+
 ## ¿Qué es un closure en JavaScript y cómo se utiliza?
 
 ## ¿Cómo manejas el alcance de las variables en JavaScript?
