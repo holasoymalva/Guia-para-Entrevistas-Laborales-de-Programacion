@@ -154,8 +154,13 @@ console.log(localVariable); // ReferenceError: localVariable is not defined
 
 ## ¿Qué es una promesa en JavaScript y cómo se utiliza?
 
+
+
 ## ¿Cómo funciona el sistema de módulos en JavaScript?
 
 ## ¿Qué es una arrow function en JavaScript y cómo se utiliza?
 
 ## ¿Cómo manejas errores en JavaScript y cómo te aseguras de que tu código sea resistente a fallos?
+
+
+# Preguntas de Java que me han hecho en entrevistas laborales
