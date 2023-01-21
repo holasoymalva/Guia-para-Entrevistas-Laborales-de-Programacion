@@ -282,6 +282,27 @@ En resumen, la sobrecarga de métodos es una técnica muy útil en Java para per
 
 ## ¿Puedes explicar cómo funciona el concepto de multithreading en Java?
 
+El multithreading es la capacidad de un sistema para manejar varios procesos o hilos de ejecución al mismo tiempo. Esto permite que una aplicación pueda realizar varias tareas de manera simultánea, mejorando su rendimiento y eficiencia.
+
+Por ejemplo, si queremos crear una aplicación para descargar varios archivos de internet al mismo tiempo, podemos utilizar varios hilos de ejecución para descargar cada archivo de forma independiente.
+
+``` java
+public class Downloader {
+    public void downloadFiles(List<String> urls) {
+        for (String url : urls) {
+            new Thread(() -> downloadFile(url)).start();
+        }
+    }
+    
+    private void downloadFile(String url) {
+        // Descargar archivo
+    }
+}
+```
+
+En este ejemplo, utilizamos un bucle para crear un hilo de ejecución para cada url en la lista y llamamos al metodo start() para iniciar el hilo.
+
+
 
 ## Para que uso esto en java :: 
 "::" es un operador de acceso de método en Java. Es utilizado para acceder a un método estático de una clase, también conocido como método de referencia de clase. Es similar al uso de "." para acceder a un método de instancia de un objeto.
