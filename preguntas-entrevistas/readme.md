@@ -1,3 +1,13 @@
+# Preguntas de entrevistas laborales
+
+* [Preguntas de Javascript que me han hecho en entrevistas laborales]()
+* [Preguntas de Java que me han hecho en entrevistas laborales]()
+* Preguntas de Golang que me han hecho en entrevistas laborales
+* Preguntas de Python que me han hecho en entrevistas laborales
+* Preguntas de React que me han hecho en entrevistas laborales
+* Preguntas de Angular que me han hecho en entrevistas laborales
+
+
 # Preguntas de Javascript que me han hecho en entrevistas laborales
 
 ## ¿Cómo funciona el evento bubbling en JavaScript?
@@ -184,6 +194,18 @@ En resumen, las promesas son una herramienta esencial para manejar la asincroní
 
 
 # Preguntas de Java que te podrían hacer en entrevistas laborales
+
+
+* ¿Puedes explicar cómo funciona el manejo de excepciones en Java?
+* ¿Cómo funciona la sobrecarga de métodos en Java?
+* ¿Qué es una interfaz en Java y cómo se utiliza?
+* ¿Puedes explicar cómo funciona la herencia en Java?
+* ¿Puedes dar un ejemplo de una clase abstracta en Java?
+* ¿Qué es una colección en Java y puedes nombrar algunos de los tipos de colecciones disponibles?
+* ¿Puedes explicar cómo funciona el polimorfismo en Java?
+* ¿Puedes explicar cómo funciona el Garbage Collector en Java?
+* ¿Puedes nombrar algunas de las características de la programación orientada a objetos en Java?
+* ¿Puedes explicar cómo funciona el concepto de multithreading en Java?
 
 ## ¿Qué es la herencia en Java? 
 
