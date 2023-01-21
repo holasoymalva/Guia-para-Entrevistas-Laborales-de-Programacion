@@ -228,4 +228,32 @@ La sobrecarga de métodos permite que una clase tenga varios métodos con el mis
 ## ¿Puedes nombrar algunas de las características de la programación orientada a objetos en Java?
 ## ¿Puedes explicar cómo funciona el concepto de multithreading en Java?
 
+## Para que uso esto en java :: 
+"::" es un operador de acceso de método en Java. Es utilizado para acceder a un método estático de una clase, también conocido como método de referencia de clase. Es similar al uso de "." para acceder a un método de instancia de un objeto.
+
+Por ejemplo, si tienes una clase "Math" con un método estático "sqrt()" para calcular la raíz cuadrada de un número, podrías usar el operador "::" para acceder a ese método y pasarle un argumento:
+
+``` java
+double num = 9.0;
+double result = Math.sqrt(num);
+Otra forma de acceder al mismo metodo seria:
+```
+
+``` java
+double num = 9.0;
+double result = Math::sqrt.apply(num);
+```
+
+También se usa en las expresiones lambda, ya que se pueden usar para crear una referencia a un método estático o a un método de instancia. Por ejemplo, si quieres crear una expresión lambda para usar con un método que acepta una interfaz funcional, podrías usar el operador "::" para crear una referencia a un método existente:
+
+``` java
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+numbers.forEach(System.out::println);
+```
+
+En resumen, el operador "::" se usa para acceder a un método estático de una clase, y también se usa en las expresiones lambda para crear una referencia a un método existente.
+
+
+
+
 Recuerda que estas son solo algunas de las preguntas que podrían hacerte, pero es importante estar preparado para responder preguntas específicas relacionadas con tus habilidades y experiencia en Java.
