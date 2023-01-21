@@ -10,6 +10,15 @@
 
 # Preguntas de Javascript que me han hecho en entrevistas laborales
 
+* ¿Cómo funciona el evento bubbling en JavaScript?
+* ¿Cómo funciona el hoisting en JavaScript?
+* ¿Qué es un closure en JavaScript y cómo se utiliza?
+* ¿Cómo manejas el alcance de las variables en JavaScript?
+* ¿Qué es una promesa en JavaScript y cómo se utiliza?
+* ¿Cómo funciona el sistema de módulos en JavaScript?
+* ¿Qué es una arrow function en JavaScript y cómo se utiliza?
+* ¿Cómo manejas errores en JavaScript y cómo te aseguras de que tu código sea resistente a fallos?
+
 ## ¿Cómo funciona el evento bubbling en JavaScript?
 
 En JavaScript, cuando un evento ocurre en un elemento HTML, este evento se propaga a través de los elementos padres hasta llegar al elemento raíz del documento. Este proceso se conoce como evento bubbling.
