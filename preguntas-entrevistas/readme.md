@@ -19,7 +19,7 @@
 * ¿Qué es una arrow function en JavaScript y cómo se utiliza?
 * ¿Cómo manejas errores en JavaScript y cómo te aseguras de que tu código sea resistente a fallos?
 
-## ¿Cómo funciona el evento bubbling en JavaScript?
+### ¿Cómo funciona el evento bubbling en JavaScript?
 
 En JavaScript, cuando un evento ocurre en un elemento HTML, este evento se propaga a través de los elementos padres hasta llegar al elemento raíz del documento. Este proceso se conoce como evento bubbling.
 
@@ -62,7 +62,7 @@ En resumen, el evento bubbling es un proceso en el que un evento se propaga a tr
 </body>
 ```
 
-## ¿Cómo funciona el hoisting en JavaScript?
+### ¿Cómo funciona el hoisting en JavaScript?
 
 En JavaScript, el hoisting es un mecanismo que eleva las declaraciones de variables y funciones al principio del ámbito en el que se encuentran. Esto significa que, independientemente de dónde se declara una variable o función, su declaración se moverá al principio del ámbito.
 
@@ -106,7 +106,7 @@ Es importante tener en cuenta que el hoisting solo afecta a las declaraciones, n
 En conclusión, el hoisting es un mecanismo en JavaScript que eleva las declaraciones de variables y funciones al principio del ámbito en el que se encuentran, lo que puede afectar a nuestra lógica de programación.
 
 
-## ¿Qué es un closure en JavaScript y cómo se utiliza?
+### ¿Qué es un closure en JavaScript y cómo se utiliza?
 
 Un closure es una función que se crea dentro de otra función y tiene acceso a las variables y funciones de la función padre. Un closure es capaz de recordar el estado de las variables y funciones de la función padre, incluso después de que la función padre haya terminado de ejecutarse.
 
@@ -150,7 +150,7 @@ Los closures son una característica importante de JavaScript que permite el acc
 
 
 
-## ¿Cómo manejas el alcance de las variables en JavaScript?
+### ¿Cómo manejas el alcance de las variables en JavaScript?
 
 En JavaScript, existen dos tipos de alcance: el alcance global y el alcance de bloque.
 
@@ -171,7 +171,7 @@ if(true) {
 console.log(localVariable); // ReferenceError: localVariable is not defined
 ```
 
-## ¿Qué es una promesa en JavaScript y cómo se utiliza?
+### ¿Qué es una promesa en JavaScript y cómo se utiliza?
 
 Las promesas son una forma de manejar la asincronía en JavaScript. Son objetos que representan un valor o un error que pueden estar disponibles en un futuro, y nos permitan manejar el resultado de una operación asíncrona de manera organizada y estructurada.
 
@@ -195,11 +195,11 @@ En este ejemplo, utilizamos la función fetch, la cual retorna una promesa, y lu
 En resumen, las promesas son una herramienta esencial para manejar la asincronía en JavaScript de manera organizada y estructurada. Es recomendable aprender a utilizarlas para mejorar la legibilidad y escalabilidad de tu código.
 
 
-## ¿Cómo funciona el sistema de módulos en JavaScript?
+### ¿Cómo funciona el sistema de módulos en JavaScript?
 
-## ¿Qué es una arrow function en JavaScript y cómo se utiliza?
+### ¿Qué es una arrow function en JavaScript y cómo se utiliza?
 
-## ¿Cómo manejas errores en JavaScript y cómo te aseguras de que tu código sea resistente a fallos?
+### ¿Cómo manejas errores en JavaScript y cómo te aseguras de que tu código sea resistente a fallos?
 
 
 # Preguntas de Java que te podrían hacer en entrevistas laborales
@@ -216,7 +216,7 @@ En resumen, las promesas son una herramienta esencial para manejar la asincroní
 * ¿Puedes nombrar algunas de las características de la programación orientada a objetos en Java?
 * ¿Puedes explicar cómo funciona el concepto de multithreading en Java?
 
-## ¿Qué es la herencia en Java? 
+### ¿Qué es la herencia en Java? 
 
 La herencia es un mecanismo en Java que permite que una clase herede los atributos y métodos de otra clase. Esto significa que una clase puede heredar todo el comportamiento de otra clase y agregar su propio comportamiento adicional.
 
@@ -235,7 +235,7 @@ class Car extends Vehicle {
 }
 ```
 
-## ¿Qué es una interfaz en Java? 
+### ¿Qué es una interfaz en Java? 
 
 Una interfaz es una especie de "contrato" que especifica los métodos que una clase debe implementar. Una interfaz no tiene cuerpo de método, sólo tiene la declaración de métodos.
 
@@ -250,7 +250,7 @@ class Circle implements Shape {
 }
 ```
 
-## ¿Puedes explicar cómo funciona el manejo de excepciones en Java? 
+### ¿Puedes explicar cómo funciona el manejo de excepciones en Java? 
 
 El manejo de excepciones es un mecanismo en Java que nos permite detectar y manejar situaciones inesperadas en nuestro código. Esto incluye errores de sintaxis, errores de lógica, errores de entrada/salida, entre otros.
 Java proporciona una jerarquía de excepciones para clasificar y manejar distintos tipos de excepciones.
@@ -263,14 +263,14 @@ try {
 }
 ```
 
-## ¿Cómo funciona la sobrecarga de métodos en Java? 
+### ¿Cómo funciona la sobrecarga de métodos en Java? 
 
 La sobrecarga de métodos permite que una clase tenga varios métodos con el mismo nombre, pero con distintos parámetros. Esto nos permite crear métodos con distintas funcionalidades y usarlos según el contexto.
 
 
-## ¿Puedes explicar cómo funciona el manejo de excepciones en Java?
+### ¿Puedes explicar cómo funciona el manejo de excepciones en Java?
 
-## ¿Cómo funciona la sobrecarga de métodos en Java?
+### ¿Cómo funciona la sobrecarga de métodos en Java?
 
 La sobrecarga de métodos es una técnica en la que una clase tiene varios métodos con el mismo nombre pero con diferentes parámetros. Esto permite que una clase tenga varias formas de realizar una misma acción, pero con diferentes opciones.
 
@@ -300,18 +300,15 @@ En resumen, la sobrecarga de métodos es una técnica muy útil en Java para per
 
 
 
+### ¿Qué es una interfaz en Java y cómo se utiliza?
+### ¿Puedes explicar cómo funciona la herencia en Java?
+### ¿Puedes dar un ejemplo de una clase abstracta en Java?
+### ¿Qué es una colección en Java y puedes nombrar algunos de los tipos de colecciones disponibles?
+### ¿Puedes explicar cómo funciona el polimorfismo en Java?
+### ¿Puedes explicar cómo funciona el Garbage Collector en Java?
+### ¿Puedes nombrar algunas de las características de la programación orientada a objetos en Java?
 
-
-
-## ¿Qué es una interfaz en Java y cómo se utiliza?
-## ¿Puedes explicar cómo funciona la herencia en Java?
-## ¿Puedes dar un ejemplo de una clase abstracta en Java?
-## ¿Qué es una colección en Java y puedes nombrar algunos de los tipos de colecciones disponibles?
-## ¿Puedes explicar cómo funciona el polimorfismo en Java?
-## ¿Puedes explicar cómo funciona el Garbage Collector en Java?
-## ¿Puedes nombrar algunas de las características de la programación orientada a objetos en Java?
-
-## ¿Puedes explicar cómo funciona el concepto de multithreading en Java?
+### ¿Puedes explicar cómo funciona el concepto de multithreading en Java?
 
 El multithreading es la capacidad de un sistema para manejar varios procesos o hilos de ejecución al mismo tiempo. Esto permite que una aplicación pueda realizar varias tareas de manera simultánea, mejorando su rendimiento y eficiencia.
 
@@ -335,7 +332,8 @@ En este ejemplo, utilizamos un bucle para crear un hilo de ejecución para cada 
 
 
 
-## Para que uso esto en java :: 
+### ¿Cual es el uso del operador "::" en Java?
+
 "::" es un operador de acceso de método en Java. Es utilizado para acceder a un método estático de una clase, también conocido como método de referencia de clase. Es similar al uso de "." para acceder a un método de instancia de un objeto.
 
 Por ejemplo, si tienes una clase "Math" con un método estático "sqrt()" para calcular la raíz cuadrada de un número, podrías usar el operador "::" para acceder a ese método y pasarle un argumento:
@@ -359,8 +357,5 @@ numbers.forEach(System.out::println);
 ```
 
 En resumen, el operador "::" se usa para acceder a un método estático de una clase, y también se usa en las expresiones lambda para crear una referencia a un método existente.
-
-
-
 
 Recuerda que estas son solo algunas de las preguntas que podrían hacerte, pero es importante estar preparado para responder preguntas específicas relacionadas con tus habilidades y experiencia en Java.
