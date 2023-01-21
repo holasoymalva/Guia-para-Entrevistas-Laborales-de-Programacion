@@ -154,6 +154,26 @@ console.log(localVariable); // ReferenceError: localVariable is not defined
 
 ## ¿Qué es una promesa en JavaScript y cómo se utiliza?
 
+Las promesas son una forma de manejar la asincronía en JavaScript. Son objetos que representan un valor o un error que pueden estar disponibles en un futuro, y nos permitan manejar el resultado de una operación asíncrona de manera organizada y estructurada.
+
+Una promesa se crea utilizando la función Promise y se le pasa como parámetro una función llamada "resolver". Dentro de esta función se debe escribir el código que se ejecutará de forma asíncrona, y cuando esta tarea termine, se debe llamar a la función resolve (si todo sale bien) o reject (si hay algún error).
+
+``` javascript
+let promise = new Promise(function(resolve, reject) {
+  setTimeout(() => resolve("Promesa cumplida"), 2000);
+});
+```
+
+``` javascript
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.log(error));
+```
+
+En este ejemplo, utilizamos la función fetch, la cual retorna una promesa, y luego usamos los métodos then y catch para manejar la respuesta. El método then se ejecuta cuando la promesa se cumple y recibe como parámetro el valor que se ha resuelto, en este caso la respuesta de la petición HTTP. El método catch se ejecuta cuando hay algún error en la promesa.
+  
+En resumen, las promesas son una herramienta esencial para manejar la asincronía en JavaScript de manera organizada y estructurada. Es recomendable aprender a utilizarlas para mejorar la legibilidad y escalabilidad de tu código.
 
 
 ## ¿Cómo funciona el sistema de módulos en JavaScript?
