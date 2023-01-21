@@ -1,7 +1,7 @@
 # Preguntas de entrevistas laborales
 
-* [Preguntas de Javascript que me han hecho en entrevistas laborales]()
-* [Preguntas de Java que me han hecho en entrevistas laborales]()
+* [Preguntas de Javascript que me han hecho en entrevistas laborales](#preguntas-de-javascript-que-me-han-hecho-en-entrevistas-laborales)
+* [Preguntas de Java que me han hecho en entrevistas laborales](#preguntas-de-java-que-me-han-hecho-en-entrevistas-laborales)
 * Preguntas de Golang que me han hecho en entrevistas laborales
 * Preguntas de Python que me han hecho en entrevistas laborales
 * Preguntas de React que me han hecho en entrevistas laborales
