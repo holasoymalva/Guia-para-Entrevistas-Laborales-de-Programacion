@@ -2,7 +2,7 @@
 
 * [Preguntas de Javascript que me han hecho en entrevistas laborales](#preguntas-de-javascript-que-me-han-hecho-en-entrevistas-laborales)
 * [Preguntas de Java que me han hecho en entrevistas laborales](#preguntas-de-java-que-te-podrían-hacer-en-entrevistas-laborales)
-* [Preguntas de Git que me han hecho en entrevistas laborales](#preguntas-de-git-que-me-han-hecho-en-entrevistas-laborales)
+* [Preguntas de Git y  Github que me han hecho en entrevistas laborales](##preguntas-de-git-y-github-que-me-han-hecho-en-entrevistas-laborales)
 * Preguntas de Golang que me han hecho en entrevistas laborales
 * Preguntas de Python que me han hecho en entrevistas laborales
 * Preguntas de React que me han hecho en entrevistas laborales
