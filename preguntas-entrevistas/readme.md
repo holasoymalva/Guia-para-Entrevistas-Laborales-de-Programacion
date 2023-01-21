@@ -65,7 +65,7 @@ Y en este caso, JavaScript retorna undefined, debido a que la variable x ha sido
 Otro ejemplo, con las funciones
 
 ``` javascript
-sum(2,3);
+console.log(sum(2,3));
 function sum(a,b){
   return a+b;
 }
@@ -77,7 +77,7 @@ En este caso, el hoisting eleva la declaración de la función sum al principio 
 function sum(a,b){
   return a+b;
 }
-sum(2,3);
+console.log(sum(2,3));
 ```
 
 Y en este caso, JavaScript retorna 5 como resultado de la suma de 2+3.
