@@ -238,7 +238,40 @@ La sobrecarga de métodos permite que una clase tenga varios métodos con el mis
 
 
 ## ¿Puedes explicar cómo funciona el manejo de excepciones en Java?
+
 ## ¿Cómo funciona la sobrecarga de métodos en Java?
+
+La sobrecarga de métodos es una técnica en la que una clase tiene varios métodos con el mismo nombre pero con diferentes parámetros. Esto permite que una clase tenga varias formas de realizar una misma acción, pero con diferentes opciones.
+
+Por ejemplo, si queremos crear una clase para representar un rectángulo, podemos crear un método constructor con diferentes opciones para inicializar un rectángulo, como con un ancho y un alto, o con dos puntos que definen una esquina superior izquierda y una esquina inferior derecha.
+
+``` java
+class Rectangle {
+    // Constructor con ancho y alto
+    public Rectangle(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+    
+    // Constructor con dos puntos
+    public Rectangle(Point topLeft, Point bottomRight) {
+        this.width = bottomRight.x - topLeft.x;
+        this.height = bottomRight.y - topLeft.y;
+    }
+}
+```
+
+De esta manera, podemos crear un rectángulo de diferentes maneras, según nuestras necesidades.
+
+Además, también se puede sobrecargar métodos con diferentes tipos de datos, eso permite a los métodos tener diferentes comportamientos para diferentes tipos de datos.
+
+En resumen, la sobrecarga de métodos es una técnica muy útil en Java para permitir que una clase tenga varias formas de realizar una misma acción, adaptándose mejor a las necesidades de nuestra aplicación.
+
+
+
+
+
+
 ## ¿Qué es una interfaz en Java y cómo se utiliza?
 ## ¿Puedes explicar cómo funciona la herencia en Java?
 ## ¿Puedes dar un ejemplo de una clase abstracta en Java?
@@ -246,7 +279,9 @@ La sobrecarga de métodos permite que una clase tenga varios métodos con el mis
 ## ¿Puedes explicar cómo funciona el polimorfismo en Java?
 ## ¿Puedes explicar cómo funciona el Garbage Collector en Java?
 ## ¿Puedes nombrar algunas de las características de la programación orientada a objetos en Java?
+
 ## ¿Puedes explicar cómo funciona el concepto de multithreading en Java?
+
 
 ## Para que uso esto en java :: 
 "::" es un operador de acceso de método en Java. Es utilizado para acceder a un método estático de una clase, también conocido como método de referencia de clase. Es similar al uso de "." para acceder a un método de instancia de un objeto.
