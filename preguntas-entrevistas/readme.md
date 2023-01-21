@@ -2,6 +2,7 @@
 
 * [Preguntas de Javascript que me han hecho en entrevistas laborales](#preguntas-de-javascript-que-me-han-hecho-en-entrevistas-laborales)
 * [Preguntas de Java que me han hecho en entrevistas laborales](#preguntas-de-java-que-te-podrían-hacer-en-entrevistas-laborales)
+* [Preguntas de Git que me han hecho en entrevistas laborales](#preguntas-de-git-que-me-han-hecho-en-entrevistas-laborales)
 * Preguntas de Golang que me han hecho en entrevistas laborales
 * Preguntas de Python que me han hecho en entrevistas laborales
 * Preguntas de React que me han hecho en entrevistas laborales
@@ -359,3 +360,14 @@ numbers.forEach(System.out::println);
 En resumen, el operador "::" se usa para acceder a un método estático de una clase, y también se usa en las expresiones lambda para crear una referencia a un método existente.
 
 Recuerda que estas son solo algunas de las preguntas que podrían hacerte, pero es importante estar preparado para responder preguntas específicas relacionadas con tus habilidades y experiencia en Java.
+
+# Preguntas de Git y Github que me han hecho en entrevistas laborales
+
+* ¿Cómo funciona el flujo de trabajo en Git?
+* ¿Que diferencias hay entre Git y Github?
+* ¿Qué es un commit, un push y un pull?
+* ¿Qué es Github y cómo se relaciona con Git?
+* ¿Qué es un git conflict y cómo se puede resolver?
+* ¿Qué diferencias hay entre Git Merge y Git Rebase?
+* ¿Cómo crear y manejar ramas en un repositorio?
+
