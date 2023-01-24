@@ -19,6 +19,8 @@
 * ¿Cómo funciona el sistema de módulos en JavaScript?
 * ¿Qué es una arrow function en JavaScript y cómo se utiliza?
 * ¿Cómo manejas errores en JavaScript y cómo te aseguras de que tu código sea resistente a fallos?
+* ¿Cuál es la diferencia entre los operadores “==” y “===”?
+
 
 ### ¿Cómo funciona el evento bubbling en JavaScript?
 
@@ -202,6 +204,19 @@ En resumen, las promesas son una herramienta esencial para manejar la asincroní
 
 ### ¿Cómo manejas errores en JavaScript y cómo te aseguras de que tu código sea resistente a fallos?
 
+### ¿Cuál es la diferencia entre los operadores “==” y “===”?
+
+Dentro de javascript tenemos diferentes maneras de realizar comparaciones entre valores, entre ellas podemos encontrar '==' e '===', la diferencia entre estas radica en 
+
+``` javascript
+
+let EdadtuCrush = "25";
+let tuEdad = 25;
+
+console.log(EdadtuCrush == tuEdad);
+console.log(EdadtuCrush === tuEdad);
+
+```
 
 # Preguntas de Java que te podrían hacer en entrevistas laborales
 
