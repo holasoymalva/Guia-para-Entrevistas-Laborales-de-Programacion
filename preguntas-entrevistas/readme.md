@@ -302,12 +302,62 @@ En resumen, la sobrecarga de métodos es una técnica muy útil en Java para per
 
 
 ### ¿Qué es una interfaz en Java y cómo se utiliza?
+
+```java
+
+```
+
+
+```java
+
+```
+
 ### ¿Puedes explicar cómo funciona la herencia en Java?
+
+```java
+
+```
+
 ### ¿Puedes dar un ejemplo de una clase abstracta en Java?
+
+```java
+
+```
+
 ### ¿Qué es una colección en Java y puedes nombrar algunos de los tipos de colecciones disponibles?
+
+
+```java
+
+```
+
+
+```java
+
+```
+
 ### ¿Puedes explicar cómo funciona el polimorfismo en Java?
+
+```java
+
+```
+
+
+```java
+
+```
+
 ### ¿Puedes explicar cómo funciona el Garbage Collector en Java?
+
 ### ¿Puedes nombrar algunas de las características de la programación orientada a objetos en Java?
+
+
+### ¿Puedes dar un ejempplo con algunas de las características de la programación orientada a objetos en Java?
+
+
+```java
+
+```
 
 ### ¿Puedes explicar cómo funciona el concepto de multithreading en Java?
 
@@ -371,3 +421,11 @@ Recuerda que estas son solo algunas de las preguntas que podrían hacerte, pero 
 * ¿Qué diferencias hay entre Git Merge y Git Rebase?
 * ¿Cómo crear y manejar ramas en un repositorio?
 
+
+### ¿Cómo funciona el flujo de trabajo en Git?
+### ¿Que diferencias hay entre Git y Github?
+### ¿Qué es un commit, un push y un pull?
+### ¿Qué es Github y cómo se relaciona con Git?
+### ¿Qué es un git conflict y cómo se puede resolver?
+### ¿Qué diferencias hay entre Git Merge y Git Rebase?
+### ¿Cómo crear y manejar ramas en un repositorio?
