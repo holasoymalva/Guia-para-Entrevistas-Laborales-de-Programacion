@@ -38,13 +38,13 @@ En resumen, el evento bubbling es un proceso en el que un evento se propaga a tr
 <body>
     <h2>Evento Bubbling en Javascript</h2>
   
-    <div id="parent">
+    <div id="padre">
         <button>
-            <h2>Parent</h2>
+            <h2>Padre</h2>
         </button>
-        <button id="child">
+        <button id="hijo">
   
-            <p>Child</p>
+            <p>Hijo</p>
   
         </button>
     </div><br>
@@ -52,13 +52,13 @@ En resumen, el evento bubbling es un proceso en el que un evento se propaga a tr
   
     <script>
         document.getElementById(
-        "child").addEventListener("click", function () {
-            alert("You clicked the Child element!");
+        "hijo").addEventListener("click", function () {
+            alert("Haz clickeado al Junior!");
         }, false);
           
         document.getElementById(
-        "parent").addEventListener("click", function () {
-            alert("You clicked the parent element!");
+        "padre").addEventListener("click", function () {
+            alert("Haz clickeado al Papu!");
         }, false);
     </script>
   
