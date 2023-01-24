@@ -116,17 +116,18 @@ Un closure es una función que se crea dentro de otra función y tiene acceso a 
 Veamos un ejemplo:
 
 ``` Javascript
-function createCounter() {
+function creaCounter() {
   let count = 0;
-  return function() {
+  return function(){
     return count++;
   }
 }
 
-const counter = createCounter();
-console.log(counter()); // 0
-console.log(counter()); // 1
-console.log(counter()); // 2
+const counter = creaCounter();
+
+console.log(counter()); //0
+console.log(counter()); //1
+console.log(counter()); //2
 ```
 
 
