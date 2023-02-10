@@ -91,19 +91,22 @@ Dadas dos matrices arr1 y arr2, los elementos de arr2 son distintos y todos los 
 Ordenar los elementos de arr1 de modo que el orden relativo de los artículos en arr1 son lo mismo que en arr2. Elementos que no aparecen en arr2 debe colocarse al final de arr1 en ascendente orden.
 
 ``` javascript
-const twoSum = function(nums, target) {
-    let vals = {};
-
-    for (let i = 0; i < nums.length; i++) {
-        if (target - nums[i] in vals) {
-            return [vals[target-nums[i]], i];
-        } else{
-            vals[nums[i]]=i;
-        }
-        
-    }
-    return[];
+var relativeSortArray = function(arr1, arr2) {
+    let h = {};
+    for (let i = 0; i < arr2.length; i++) {h[arr2[i]]=i}
+    for (const i of arr1) { if(!(i in h)){h[i]=1000+i}}
+    arr1.sort((a,b)=>h[a]-h[b]);
+    return arr1;
 };
+
+let arr1 = [ 28,6,22,8,44,17 ];
+let arr2 = [ 22,28,8,6 ];
+
+let output = [ 22,28,8,6,17,44 ];
+
+console.log(
+    relativeSortArray(arr1,arr2),output
+);
 
 ``` 
 
