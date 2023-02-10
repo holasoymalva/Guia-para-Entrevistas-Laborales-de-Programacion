@@ -84,6 +84,30 @@ let objetivo = 9
 console.log(twoSum(numeros, objetivo));
 ``` 
 
+### Ejercicio 3 : Matriz de orden relativo
+
+Dadas dos matrices arr1 y arr2, los elementos de arr2 son distintos y todos los elementos en arr2 también están en arr1.
+
+Ordenar los elementos de arr1 de modo que el orden relativo de los artículos en arr1 son lo mismo que en arr2. Elementos que no aparecen en arr2 debe colocarse al final de arr1 en ascendente orden.
+
+``` javascript
+const twoSum = function(nums, target) {
+    let vals = {};
+
+    for (let i = 0; i < nums.length; i++) {
+        if (target - nums[i] in vals) {
+            return [vals[target-nums[i]], i];
+        } else{
+            vals[nums[i]]=i;
+        }
+        
+    }
+    return[];
+};
+
+``` 
+
+
 ## Java
 
 ## Python
