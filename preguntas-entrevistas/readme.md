@@ -23,6 +23,7 @@
 * ¿Cuál es la diferencia entre los operadores “==” y “===”?
 
 
+
 ### ¿Cómo funciona el evento bubbling en JavaScript?
 
 En JavaScript, cuando un evento ocurre en un elemento HTML, este evento se propaga a través de los elementos padres hasta llegar al elemento raíz del documento. Este proceso se conoce como evento bubbling.
@@ -428,6 +429,24 @@ En resumen, el operador "::" se usa para acceder a un método estático de una c
 
 Recuerda que estas son solo algunas de las preguntas que podrían hacerte, pero es importante estar preparado para responder preguntas específicas relacionadas con tus habilidades y experiencia en Java.
 
+
+# Preguntas de Spring Boot que te podrían hacer en entrevistas laborales
+
+¿Qué es Spring Boot y cómo se relaciona con Spring Framework?
+¿Cómo configurar un proyecto Spring Boot?
+¿Cómo utilizar las características de inyección de dependencias de Spring Boot?
+¿Cómo utilizar las características de persistencia de datos de Spring Boot?
+¿Cómo utilizar las características de seguridad de Spring Boot?
+¿Cómo utilizar las características de despliegue de Spring Boot?
+¿Cómo utilizar Spring Boot con una base de datos NoSQL?
+¿Cómo utilizar Spring Boot con un sistema de colas de mensajes?
+¿Cómo utilizar Spring Boot con un sistema de seguridad basado en tokens?
+¿Cómo utilizar Spring Boot para desarrollar aplicaciones con arquitectura microservicios?
+¿Cómo utilizar Spring Boot para desarrollar aplicaciones con escalabilidad automática?
+¿Cómo utilizar Spring Boot para desarrollar aplicaciones con integración continua y despliegue automatizado?
+
+
+
 # Preguntas de Git y Github que me han hecho en entrevistas laborales
 
 * ¿Cómo funciona el flujo de trabajo en Git?
@@ -446,3 +465,4 @@ Recuerda que estas son solo algunas de las preguntas que podrían hacerte, pero 
 ### ¿Qué es un git conflict y cómo se puede resolver?
 ### ¿Qué diferencias hay entre Git Merge y Git Rebase?
 ### ¿Cómo crear y manejar ramas en un repositorio?
+
