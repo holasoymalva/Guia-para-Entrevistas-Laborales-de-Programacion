@@ -3,6 +3,7 @@
 * [Preguntas de Javascript que me han hecho en entrevistas laborales](#preguntas-de-javascript-que-me-han-hecho-en-entrevistas-laborales)
 * [Preguntas de Java que me han hecho en entrevistas laborales](#preguntas-de-java-que-te-podrían-hacer-en-entrevistas-laborales)
 * [Preguntas de Git y  Github que me han hecho en entrevistas laborales](##preguntas-de-git-y-github-que-me-han-hecho-en-entrevistas-laborales)
+
 * Preguntas de Golang que me han hecho en entrevistas laborales
 * Preguntas de Python que me han hecho en entrevistas laborales
 * Preguntas de React que me han hecho en entrevistas laborales
@@ -368,7 +369,7 @@ En resumen, la sobrecarga de métodos es una técnica muy útil en Java para per
 ### ¿Puedes nombrar algunas de las características de la programación orientada a objetos en Java?
 
 
-### ¿Puedes dar un ejempplo con algunas de las características de la programación orientada a objetos en Java?
+### ¿Puedes dar un ejemplo con algunas de las características de la programación orientada a objetos en Java?
 
 
 ```java
