@@ -7,6 +7,8 @@ def twoSum(nums, target):
 demoNums = [3,2,4]
 demoTarget =  6
 
-print(
-    twoSum(demoNums, demoTarget)
-)
+test = [1,2]
+
+print( twoSum(demoNums, demoTarget) )
+
+print(test == twoSum(demoNums, demoTarget))
