@@ -284,8 +284,29 @@ app.get('/', async(req, res) =>{
 
 });
 
+
+
 app.listen(3000, ()=>{
     console.log('servidor ya esta corriendo')
 })
+
+```
+
+# Ejercicios C++
+
+```c
+#include <iostream>
+#include <fstream>
+
+int main(){
+  std::ofstream archivo("ejemplo.txt");
+  if(archivo.is_open()){
+    archivo << "Ella no te ama!!";
+    archivo.close();
+    std::cout << "Archivo creado correctamente";
+  }else{
+    std:cout << "Error al crear archivo";
+  }
+}
 
 ```
