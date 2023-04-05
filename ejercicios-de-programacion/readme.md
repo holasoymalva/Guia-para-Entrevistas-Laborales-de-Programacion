@@ -262,3 +262,8 @@ Ordenar los elementos de arr1 de modo que el orden relativo de los artículos en
 ## React.js
 
 ## Node.js
+
+Consume una API con el uso de Express y trae los valores referentes a los primeros 3 elementos de la peticion.
+```Javascript
+
+```
