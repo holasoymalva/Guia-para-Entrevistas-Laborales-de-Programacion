@@ -264,6 +264,28 @@ Ordenar los elementos de arr1 de modo que el orden relativo de los artículos en
 ## Node.js
 
 Consume una API con el uso de Express y trae los valores referentes a los primeros 3 elementos de la peticion.
+
 ```Javascript
+const express = require('express');
+const axios = require('axios');
+
+const app = express();
+const urlOrigin = "https://rickandmortyapi.com/api/character";
+
+app.get('/', async(req, res) =>{
+    try{
+        const response = await axios.get(urlOrigin);
+        const characters = response.data.results.slice(0,3);
+        res.send(characters);
+    }catch(error){
+        console.error(error);
+        res.status(500).send('Error en el servidor');
+    }
+
+});
+
+app.listen(3000, ()=>{
+    console.log('servidor ya esta corriendo')
+})
 
 ```
