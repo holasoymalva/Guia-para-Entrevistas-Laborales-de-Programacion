@@ -87,6 +87,7 @@ El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repa
 
 * ¿Qué es una API?
 * ¿Cuál es el uso qué se les da a las API's?
+* ¿Qué es un API REST?
 
 ## Preguntas recurrentes de Programacion Orientada a Objetos
 
