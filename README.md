@@ -131,7 +131,7 @@ El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repa
 
 
 
-## Preguntas recurrentes de React.js (2022)
+## Preguntas recurrentes de React.js
 
 * ¿Qué es JSX?
 * ¿Qué es el DOM virtual?
@@ -221,5 +221,5 @@ Created by Malvabombom.
 [tt]: https://img.shields.io/badge/tiktok-000000?style=flat-square&logo=tiktok&logoColor=white
 
 [in-link]: https://www.linkedin.com/in/martin-manriquez-899877177/
-[ig-link]: https://www.instagram.com/malvabombom/
-[tt-link]: https://www.tiktok.com/@malvabombom
+[ig-link]: https://www.instagram.com/holasoymalva/
+[tt-link]: https://www.tiktok.com/@holasoymalva
