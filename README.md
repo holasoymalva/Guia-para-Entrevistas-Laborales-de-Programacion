@@ -50,7 +50,6 @@ El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repa
 * ¿Qué significa 'Important' en CSS y cuales son sus caracteristicas?
 * ¿Cómo funcionan las animaciones en CSS?
 * ¿Cuál es la diferencia entre CSS Grid y Flexbox? ¿Cuándo usarías uno sobre el otro?
-* ¿Cuál es la diferencia entre CSS Grid y Flexbox? ¿Cuándo usarías uno sobre el otro?
 * ¿Puedes dar un ejemplo de una pseudo clase? ¿Puede proporcionar un caso de uso de ejemplo para una pseudo clase?
 * ¿Porque se dice que css funciona en cascada?
 
