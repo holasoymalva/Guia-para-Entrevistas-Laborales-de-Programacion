@@ -130,7 +130,23 @@ El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repa
 * Tipos de constructores
 * ¿Qué es un constructor de copias?
 
+## Preguntas de SQL
 
+* ¿Qué es SQL y para qué se utiliza?
+* ¿Cuál es la diferencia entre SQL y MySQL?
+* ¿Cuál es la diferencia entre INNER JOIN y OUTER JOIN?
+* ¿Qué son las funciones de agregación en SQL? Enumera algunas.
+* ¿Qué es una subconsulta y cómo se utiliza?
+* ¿Qué es una clave primaria y cómo se establece?
+* ¿Qué es una clave foránea y cómo se establece?
+* ¿Cómo se elimina un registro duplicado de una tabla en SQL?
+* ¿Cómo se realiza una consulta que muestre solo los registros únicos de una tabla?
+* ¿Cómo se realiza una consulta que muestre solo los registros con un valor específico?
+* ¿Cómo se realiza una consulta que muestre solo los registros con un valor específico y que cumpla cierta condición?
+* ¿Qué es una transacción en SQL y cómo se utiliza?
+* ¿Cómo se realiza una consulta que muestre solo los registros de una tabla que no tienen una clave foránea asociada?
+* ¿Qué es un índice en SQL y cómo se utiliza?
+* ¿Cómo se realizan consultas que utilicen la cláusula BETWEEN?
 
 ## Preguntas recurrentes de React.js
 
