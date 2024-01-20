@@ -11,7 +11,12 @@ El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repa
 * [Preguntas recurrentes de Javascript](https://github.com/malvabombom/Entrevistas-Front-End#preguntas-recurrentes-de-javascript)
 * [Preguntas recurrentes de Programacion Orientada a Objetos](https://github.com/malvabombom/Entrevistas-Front-End/blob/main/README.md#preguntas-recurrentes-de-programacion-orientada-a-objetos)
 * [Pruebas Tecnicas](https://github.com/malvabombom/Entrevistas-Front-End#pruebas-tecnicas)
-
+* Preguntas recurrentes de React
+* Preguntas recurrentes de Angular
+* Preguntas recurrentes de Node.js
+* Preguntas recurrentes MEAN Stack
+* Preguntas recurrentes MERN Stack
+* Preguntas recurrentes Java Back-End Stack
 
 ## Preguntas recurrentes de GIT
 
@@ -158,6 +163,20 @@ El siguiente es un proyecto abierto que te permitirá estudiar, practicar y repa
 * ¿Qué es un Estado en React? ¿Cómo lo implementas?
 * ¿Qué es un orden superior y componentes puros en React?
 * ¿Cómo se implementa React Routing?
+
+## Preguntas recurrentes de Node.js
+
+## Preguntas recurrentes de Mongo.js
+
+## Preguntas recurrentes de Angular
+
+## Preguntas recurrentes de Spring Boot
+
+## Preguntas recurrentes MERN Stack
+
+## Preguntas recurrentes MEAN Stack
+
+## Preguntas recurrentes JAVA Back-End Stack
 
 ##  Pruebas Tecnicas
 
