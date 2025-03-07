@@ -103,14 +103,3 @@ Sígueme en redes sociales:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martin-manriquez-899877177/)  
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/holasoymalva/)  
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@holasoymalva/)
-```
-
----
-
-### **🛠 Mejoras Implementadas**
-✅ **Estructura organizada** → Secciones: Fundamentos, Stacks, Pruebas, Simulacros.  
-✅ **Ejemplos de código** → Cada tema tiene una sección de ejemplos en archivos separados.  
-✅ **Explicaciones detalladas de pruebas** → Descripción clara de cada prueba con ejemplos y soluciones.  
-✅ **Desafíos prácticos** → Carpeta `/pruebas-tecnicas/desafios/` con ejercicios por categorías.  
-✅ **Simulacros de entrevistas** → Incluye escenarios de prueba en `/simulacros/`.  
-✅ **Mejor presentación** → Índice claro, enlaces internos, código con formato y README visualmente atractivo.  
