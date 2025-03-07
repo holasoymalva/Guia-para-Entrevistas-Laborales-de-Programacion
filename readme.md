@@ -96,10 +96,11 @@ Accede a guías y ejemplos en la carpeta [Simulacros](simulacros/).
 **¡Gracias por tu apoyo!** 💙
 
 ---
+<p align="center">Hecho con ❤️ por <a href="https://holasoymalva.com">@holasoymalva</a></p>
 
-## 🏆 Autor
-Creado por [Malvabombom](https://www.linkedin.com/in/martin-manriquez-899877177/).  
-Sígueme en redes sociales:  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martin-manriquez-899877177/)  
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/holasoymalva/)  
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@holasoymalva/)
+## 🔗 Enlaces
+
+- [Twitch](https://twitch.tv/holasoymalva)
+- [YouTube](https://youtube.com/@holasoymalva)
+- [Twitter/X](https://twitter.com/holasoymalva)
+- [Discord](https://discord.gg/holasoymalva)
