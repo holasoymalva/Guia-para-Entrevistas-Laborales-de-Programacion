@@ -8,7 +8,7 @@ Este repositorio es un recurso abierto para ayudarte a prepararte para entrevist
 📌 **Índice**
 1. [Fundamentos](#%EF%B8%8F-fundamentos)
 2. [Stacks Tecnológicos](#-stacks-tecnológicos)
-3. [Pruebas Técnicas](#-pruebas-tecnicas)
+3. [Pruebas Técnicas](#-pruebas-técnicas)
 4. [Simulacros de Entrevistas](#-simulacros-de-entrevistas)
 5. [Cómo Contribuir](#-como-contribuir)
 
