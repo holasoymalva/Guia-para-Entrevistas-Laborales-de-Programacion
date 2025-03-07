@@ -6,7 +6,7 @@ Este repositorio es un recurso abierto para ayudarte a prepararte para entrevist
 🚀 **Objetivo**: Brindar una guía completa con preguntas comunes, resolución de problemas y simulacros para mejorar tus habilidades.
 
 📌 **Índice**
-1. [Fundamentos](#fundamentos)
+1. [Fundamentos](#-fundamentos)
 2. [Stacks Tecnológicos](#stacks-tecnologicos)
 3. [Pruebas Técnicas](#pruebas-tecnicas)
 4. [Simulacros de Entrevistas](#simulacros-de-entrevistas)
