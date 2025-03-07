@@ -10,7 +10,7 @@ Este repositorio es un recurso abierto para ayudarte a prepararte para entrevist
 2. [Stacks Tecnológicos](#-stacks-tecnológicos)
 3. [Pruebas Técnicas](#-pruebas-técnicas)
 4. [Simulacros de Entrevistas](#-simulacros-de-entrevistas)
-5. [Cómo Contribuir](#-como-contribuir)
+5. [Cómo Contribuir](#-cómo-contribuir)
 
 ---
 
