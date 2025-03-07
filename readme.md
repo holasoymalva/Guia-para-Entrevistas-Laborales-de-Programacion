@@ -19,10 +19,10 @@ Esta sección cubre conceptos esenciales en programación y herramientas clave.
 Cada tema contiene preguntas comunes, ejemplos de código y recursos adicionales.
 
 📌 **Temas Incluidos**:
-- **Git** → [Preguntas Frecuentes](fundamentos/git/preguntas.md) | [Ejemplos](fundamentos/git/ejemplos.md)  
-- **HTML & CSS** → [Preguntas](fundamentos/html/preguntas.md) | [Ejemplos](fundamentos/css/ejemplos.md)  
-- **JavaScript** → [Preguntas](fundamentos/javascript/preguntas.md) | [Ejemplos](fundamentos/javascript/ejemplos.md)  
-- **POO (Programación Orientada a Objetos)** → [Preguntas](fundamentos/poo/preguntas.md) | [Ejemplos](fundamentos/poo/ejemplos.md)  
+- **Git** → [Preguntas Frecuentes](fundamentos/git/readme.md)  
+- **HTML & CSS** → [Preguntas](fundamentos/html/readme.md)   
+- **JavaScript** → [Preguntas](fundamentos/javascript/readme.md) 
+- **POO (Programación Orientada a Objetos)** → [Preguntas](fundamentos/poo/readme.md)  
 
 ---
 
@@ -30,8 +30,12 @@ Cada tema contiene preguntas comunes, ejemplos de código y recursos adicionales
 Exploramos preguntas y desafíos específicos para distintos stacks.
 
 📌 **Stacks Incluidos**:
-- [React](stacks/react) | [Angular](stacks/angular) | [Node.js](stacks/node)  
-- [MEAN Stack](stacks/mean) | [MERN Stack](stacks/mern) | [Java Backend](stacks/java-backend)  
+- [React](stacks/react)
+- [Angular](stacks/angular)
+- [Node.js](stacks/node)  
+- [MEAN Stack](stacks/mean)
+- [MERN Stack](stacks/mern)
+- [Java Backend](stacks/java-backend)  
 
 Cada stack tiene preguntas técnicas y ejercicios aplicados a entrevistas reales.
 
@@ -41,7 +45,7 @@ Cada stack tiene preguntas técnicas y ejercicios aplicados a entrevistas reales
 La clave para superar entrevistas técnicas es la práctica constante. Aquí encontrarás desafíos y pruebas técnicas.
 
 📌 **Tipos de Pruebas**:
-- **Lógica y Algoritmos** → [Ejercicios](pruebas-tecnicas/desafios/logica) | [Soluciones](pruebas-tecnicas/soluciones)  
+- **Lógica y Algoritmos** → [Ejercicios](pruebas-tecnicas/desafios/logica) 
 - **Estructuras de Datos** → [Ejercicios](pruebas-tecnicas/desafios/estructuras-de-datos)  
 - **Desarrollo Frontend UI** → [Ejercicios](pruebas-tecnicas/desafios/frontend-ui)  
 
