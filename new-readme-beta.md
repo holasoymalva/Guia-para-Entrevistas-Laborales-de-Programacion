@@ -1,5 +1,5 @@
 # 📖 Guía para Entrevistas Laborales de Programación  
-<img src="./assets/entrevista.png" alt="Entrevista Técnica" width="100%"/>
+<img src="./readme-assets/entrevista.png" alt="readme-title" width="100%"/>
 
 Este repositorio es un recurso abierto para ayudarte a prepararte para entrevistas técnicas en programación. Aquí encontrarás teoría, ejemplos de código, pruebas técnicas, desafíos prácticos y simulacros de entrevistas.
 
