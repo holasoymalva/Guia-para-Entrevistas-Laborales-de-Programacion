@@ -97,10 +97,3 @@ Accede a guías y ejemplos en la carpeta [Simulacros](simulacros/).
 
 ---
 <p align="center">Hecho con ❤️ por <a href="https://holasoymalva.com">@holasoymalva</a></p>
-
-## 🔗 Enlaces
-
-- [Twitch](https://twitch.tv/holasoymalva)
-- [YouTube](https://youtube.com/@holasoymalva)
-- [Twitter/X](https://twitter.com/holasoymalva)
-- [Discord](https://discord.gg/holasoymalva)
