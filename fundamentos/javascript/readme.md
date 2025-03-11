@@ -1,7 +1,6 @@
-# 🚀 JavaScript Fundamentals
+# 🚀 JavaScript - Preguntas Frecuentes en Entrevistas  
 
-Esta guía **desbloqueará tu dominio de JavaScript** en entrevistas técnicas y el desarrollo de aplicaciones modernas.  
-Aprenderás desde los fundamentos hasta preguntas avanzadas utilizadas por empresas como **Google, Netflix, Uber y Meta**.
+Este documento contiene una recopilación de preguntas comunes sobre JavaScript en entrevistas técnicas, con respuestas detalladas y ejemplos prácticos.
 
 ---
 
