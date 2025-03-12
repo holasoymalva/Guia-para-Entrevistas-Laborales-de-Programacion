@@ -20,22 +20,22 @@ Cada tema contiene preguntas comunes, ejemplos de código y recursos adicionales
 
 📌 **Temas Incluidos**:
 - **Git** → [Preguntas Frecuentes](fundamentos/git/readme.md)  
-- **HTML & CSS** → [Preguntas Frecuentes](fundamentos/html/readme.md)   
+- **HTML & CSS** → [Preguntas Frecuentes](fundamentos/html/readme.md)  ( ⚠️ En desarrollo ⚠️ )
 - **JavaScript** → [Preguntas Frecuentes](fundamentos/javascript/readme.md) 
 - **POO (Programación Orientada a Objetos)** → [Preguntas Frecuentes](fundamentos/poo/readme.md)  
 
 ---
 
-## 🚀 Stacks Tecnológicos
+## 🚀 Stacks Tecnológicos ( ⚠️ En desarrollo ⚠️ )
 Exploramos preguntas y desafíos específicos para distintos stacks.
 
 📌 **Stacks Incluidos**:
-- [React](stacks/react)
-- [Angular](stacks/angular)
-- [Node.js](stacks/node)  
-- [MEAN Stack](stacks/mean)
-- [MERN Stack](stacks/mern)
-- [Java Backend](stacks/java-backend)  
+- [React](stacks/react) ( ⚠️ En desarrollo ⚠️ )
+- [Angular](stacks/angular) ( ⚠️ En desarrollo ⚠️ )
+- [Node.js](stacks/node)  ( ⚠️ En desarrollo ⚠️ )
+- [MEAN Stack](stacks/mean) ( ⚠️ En desarrollo ⚠️ )
+- [MERN Stack](stacks/mern) ( ⚠️ En desarrollo ⚠️ )
+- [Java Backend](stacks/java-backend) ( ⚠️ En desarrollo ⚠️ )
 
 Cada stack tiene preguntas técnicas y ejercicios aplicados a entrevistas reales.
 
@@ -45,9 +45,9 @@ Cada stack tiene preguntas técnicas y ejercicios aplicados a entrevistas reales
 La clave para superar entrevistas técnicas es la práctica constante. Aquí encontrarás desafíos y pruebas técnicas.
 
 📌 **Tipos de Pruebas**:
-- **Lógica y Algoritmos** → [Ejercicios](pruebas-tecnicas/desafios/logica) 
-- **Estructuras de Datos** → [Ejercicios](pruebas-tecnicas/desafios/estructuras-de-datos)  
-- **Desarrollo Frontend UI** → [Ejercicios](pruebas-tecnicas/desafios/frontend-ui)  
+- **Lógica y Algoritmos** → [Ejercicios](pruebas-tecnicas/desafios/logica) ( ⚠️ En desarrollo ⚠️ )
+- **Estructuras de Datos** → [Ejercicios](pruebas-tecnicas/desafios/estructuras-de-datos) ( ⚠️ En desarrollo ⚠️ )
+- **Desarrollo Frontend UI** → [Ejercicios](pruebas-tecnicas/desafios/frontend-ui) ( ⚠️ En desarrollo ⚠️ )
 
 Ejemplo de un desafío:
 ```js
@@ -75,8 +75,9 @@ Prueba tus habilidades con entrevistas simuladas y escenarios reales.
 📌 **Tipos de Simulacros**:
 1. **Entrevistas de Algoritmos y Lógica**
 2. **Entrevistas de Código en Varios Lenguajes**
-3. **Casos Prácticos de Desarrollo**  
-Accede a guías y ejemplos en la carpeta [Simulacros](simulacros/).
+3. **Casos Prácticos de Desarrollo**
+   
+Accede a guías y ejemplos en la carpeta [Simulacros](simulacros/). ( ⚠️ En desarrollo ⚠️ )
 
 ---
 
