@@ -5,57 +5,46 @@ Este documento contiene una recopilación de preguntas comunes sobre JavaScript 
 ---
 
 ## 📌 **Índice**
-1. [🔹 ¿Qué es JavaScript y para qué se usa?](#qué-es-javascript-y-para-qué-se-usa)
-2. [🔹 Tipos de datos en JavaScript](#tipos-de-datos-en-javascript)
-3. [🔹 Diferencias entre `==` y `===`](#diferencias-entre--y-)
+- [Preguntas y Respuestas](#-preguntas-y-respuestas)
+1. [🔹 ¿Cuáles son los distintos tipos de datos en JavaScript?](#tipos-de-datos-en-javascript)
+2. [🔹 Diferencias entre `==` y `===`](#-cuál-es-la-diferencia-entre-los-operadores--y-)
+3. [🔹 ¿Qué es la coerción implícita de tipos en JavaScript?](#-qué-es-la-coerción-implícita-de-tipos-en-javascript)
 4. [🔹 Hoisting en JavaScript](#hoisting-en-javascript)
 5. [🔹 ¿Qué es una Closure y cómo funciona?](#qué-es-una-closure-y-cómo-funciona)
 6. [🔹 Callbacks vs Promises vs Async/Await](#callbacks-vs-promises-vs-asyncawait)
 7. [🔹 ¿Qué es el Event Loop en JavaScript?](#qué-es-el-event-loop-en-javascript)
 8. [🔹 Diferencias entre `var`, `let` y `const`](#diferencias-entre-var-let-y-const)
 9. [🔹 ¿Qué es `this` en JavaScript?](#qué-es-this-en-javascript)
-10. [📚 Recursos adicionales](#recursos-adicionales)
+- [📚 Recursos adicionales](#recursos-adicionales)
 
 ---
 
-## 🔹 ¿Qué es JavaScript y para qué se usa?
-**JavaScript (JS)** es un lenguaje de programación de alto nivel, interpretado y orientado a eventos. Se utiliza principalmente para desarrollo web, pero también en **backend (Node.js)**, **mobile (React Native)** y **machine learning (TensorFlow.js)**.
+## 📌 Preguntas y Respuestas
 
-🔥 **Ejemplo de un "Hola Mundo" en JavaScript:**
-```js
-console.log("¡Hola, JavaScript!");
-```
+### 🔹 ¿Cuáles son los distintos tipos de datos en JavaScript?
+JavaScript tiene **7 tipos de datos primitivos** y tipos estructurales:
 
----
-
-## 🔹 Tipos de datos en JavaScript
-JavaScript tiene **7 tipos de datos primitivos** y **tipos estructurales**:
-
-| Tipo de dato | Ejemplo |
-|-------------|---------|
+| Tipo | Ejemplo |
+|------|---------|
 | `String` | `"Hola, mundo"` |
 | `Number` | `42`, `3.14` |
 | `Boolean` | `true`, `false` |
-| `Undefined` | `let x;` (`x` es `undefined`) |
+| `Undefined` | `let x;` |
 | `Null` | `let y = null;` |
 | `Symbol` | `const sym = Symbol("id");` |
 | `BigInt` | `const big = 12345678901234567890n;` |
 
-🔥 **Ejemplo de conversión de tipos (Type Coercion):**
-```js
-console.log(5 + "5"); // "55" (Number se convierte en String)
-console.log(5 - "2"); // 3 (String se convierte en Number)
-```
+También existen tipos estructurales como **Objects, Arrays y Functions**.
 
 ---
 
-## 🔹 Diferencias entre `==` y `===`
+### 🔹 ¿Cuál es la diferencia entre los operadores `==` y `===`?
 | Operador | Comparación | Ejemplo | Resultado |
 |----------|------------|---------|----------|
-| `==` | Compara valores (coerción de tipo) | `5 == "5"` | `true` |
-| `===` | Compara valores y tipos | `5 === "5"` | `false` |
+| `==` | Compara valores, permite conversión de tipos (coerción) | `5 == "5"` | `true` |
+| `===` | Compara valores y tipos estrictamente | `5 === "5"` | `false` |
 
-🔥 **Ejemplo:**
+🔹 **Ejemplo:**
 ```js
 console.log(0 == false);  // true (coerción)
 console.log(0 === false); // false (sin coerción)
@@ -63,132 +52,169 @@ console.log(0 === false); // false (sin coerción)
 
 ---
 
-## 🔹 Hoisting en JavaScript
-El **Hoisting** es un mecanismo por el cual las declaraciones de variables y funciones se mueven al inicio del contexto antes de ejecutar el código.
+### 🔹 ¿Qué es la coerción implícita de tipos en JavaScript?
+Es cuando JavaScript convierte automáticamente un tipo de dato en otro.
 
-🔥 **Ejemplo de Hoisting:**
+🔹 **Ejemplo de coerción:**
 ```js
-console.log(nombre); // undefined
-var nombre = "JavaScript";
-```
-⚠️ **Cuidado**: `let` y `const` también son "hoisted", pero no inicializados.
-```js
-console.log(x); // ReferenceError
-let x = 10;
+console.log("5" + 5); // "55" (Number se convierte en String)
+console.log("5" - 3); // 2 (String se convierte en Number)
 ```
 
 ---
 
-## 🔹 ¿Qué es una Closure y cómo funciona?
-Una **Closure** es una función que recuerda el contexto donde fue creada, incluso después de ejecutarse.
+### 🔹 ¿Es JavaScript un lenguaje de tipo estático o dinámico?
+JavaScript es **dinámico**, lo que significa que las variables pueden cambiar de tipo en tiempo de ejecución.
 
-🔥 **Ejemplo de Closure:**
+```js
+let x = "Hola"; // String
+x = 10;         // Ahora es Number
+```
+
+---
+
+### 🔹 ¿Qué es la propiedad `NaN` en JavaScript?
+`NaN` (Not a Number) representa un valor que no es un número válido.
+
+🔹 **Ejemplo:**
+```js
+console.log(0 / 0);       // NaN
+console.log(Math.sqrt(-1)); // NaN
+console.log(isNaN("abc")); // true
+```
+
+---
+
+### 🔹 ¿Qué es el paso por valor y el paso por referencia?
+| Modo | Tipos de datos | ¿Se modifica el original? |
+|------|---------------|--------------------------|
+| **Paso por valor** | Primitivos (`String`, `Number`, etc.) | ❌ No |
+| **Paso por referencia** | Objetos y Arrays | ✅ Sí |
+
+🔹 **Ejemplo:**
+```js
+let a = 10;
+let b = a; // Se copia el valor
+b = 20;
+console.log(a); // 10
+
+let obj1 = { name: "Juan" };
+let obj2 = obj1; // Ambas referencias apuntan al mismo objeto
+obj2.name = "Pedro";
+console.log(obj1.name); // "Pedro"
+```
+
+---
+
+### 🔹 ¿Qué son las funciones de orden superior en JavaScript?
+Son funciones que **reciben o retornan otra función**.
+
+🔹 **Ejemplo:**
+```js
+function operacion(a, b, callback) {
+  return callback(a, b);
+}
+
+const suma = (x, y) => x + y;
+console.log(operacion(5, 3, suma)); // 8
+```
+
+---
+
+### 🔹 Explica los métodos `call()`, `apply()` y `bind()`
+Son métodos para cambiar el contexto de `this` en funciones.
+
+| Método | Uso | Diferencia |
+|--------|-----|-----------|
+| `call()` | Ejecuta la función con `this` modificado y **parámetros separados** | `func.call(obj, arg1, arg2)` |
+| `apply()` | Igual que `call()`, pero **parámetros en un array** | `func.apply(obj, [arg1, arg2])` |
+| `bind()` | Devuelve una nueva función con `this` cambiado | `const newFunc = func.bind(obj)` |
+
+🔹 **Ejemplo:**
+```js
+const persona = { nombre: "Carlos" };
+function saludar() {
+  console.log("Hola " + this.nombre);
+}
+saludar.call(persona); // "Hola Carlos"
+```
+
+---
+
+### 🔹 ¿Qué es Currying en JavaScript?
+Currying es una técnica donde una función recibe **uno a uno sus argumentos** en lugar de todos a la vez.
+
+🔹 **Ejemplo:**
+```js
+const suma = a => b => a + b;
+console.log(suma(3)(5)); // 8
+```
+
+---
+
+### 🔹 ¿Qué son las Closures en JavaScript?
+Una **Closure** es una función que mantiene acceso a las variables de su contexto incluso después de ejecutarse.
+
+🔹 **Ejemplo:**
 ```js
 function contador() {
   let count = 0;
-  return function() {
-    count++;
-    return count;
-  };
+  return () => count++;
 }
-const incrementar = contador();
-console.log(incrementar()); // 1
-console.log(incrementar()); // 2
-```
-💡 **Uso práctico:** Patrones como **memoization**, **módulos privados**, etc.
-
----
-
-## 🔹 Callbacks vs Promises vs Async/Await
-### **Callbacks**
-Son funciones que se pasan como argumento a otras funciones.
-```js
-function fetchData(callback) {
-  setTimeout(() => callback("Datos recibidos"), 2000);
-}
-fetchData(console.log);
-```
-**Problema:** Callback Hell (anidación excesiva).
-
-### **Promises**
-Manejan asincronía de manera más limpia.
-```js
-const fetchData = () => new Promise(resolve => setTimeout(() => resolve("Datos"), 2000));
-fetchData().then(console.log);
-```
-
-### **Async/Await**
-La forma más moderna y limpia de manejar asincronía.
-```js
-async function getData() {
-  let data = await fetchData();
-  console.log(data);
-}
-getData();
+const increment = contador();
+console.log(increment()); // 1
+console.log(increment()); // 2
 ```
 
 ---
 
-## 🔹 ¿Qué es el Event Loop en JavaScript?
-El **Event Loop** es el mecanismo que permite que JavaScript sea **single-threaded** y maneje tareas asíncronas sin bloquear el hilo principal.
-
-🔥 **Ejemplo de ejecución del Event Loop:**
-```js
-console.log("Inicio");
-setTimeout(() => console.log("Timeout"), 0);
-Promise.resolve().then(() => console.log("Promise"));
-console.log("Fin");
-```
-**Salida esperada:**
-```
-Inicio
-Fin
-Promise
-Timeout
-```
-💡 **Promesas se ejecutan antes que `setTimeout()` debido a la Microtask Queue.**
-
----
-
-## 🔹 Diferencias entre `var`, `let` y `const`
+### 🔹 Diferencias entre `var`, `let` y `const`
 | Declaración | Ámbito | Hoisting | Reasignable |
 |------------|--------|---------|------------|
-| `var` | Función | Sí, inicializado como `undefined` | Sí |
-| `let` | Bloque | Sí, pero sin inicialización | Sí |
-| `const` | Bloque | Sí, pero sin inicialización | No |
+| `var` | Función | Sí, como `undefined` | Sí |
+| `let` | Bloque | Sí, pero no inicializado | Sí |
+| `const` | Bloque | Sí, pero no inicializado | No |
 
-🔥 **Ejemplo:**
+---
+
+### 🔹 ¿Para qué sirven las promesas en JavaScript?
+Las **promesas** manejan operaciones asíncronas y evitan el "callback hell".
+
+🔹 **Ejemplo:**
 ```js
-var a = 10;
-if (true) {
-  let b = 20;
-  const c = 30;
-}
-console.log(a); // 10
-console.log(b); // ReferenceError
-console.log(c); // ReferenceError
+const promesa = new Promise((resolve) => setTimeout(() => resolve("Completado"), 2000));
+promesa.then(console.log);
 ```
 
 ---
 
-## 🔹 ¿Qué es `this` en JavaScript?
-El valor de `this` depende del **contexto de ejecución**.
+### 🔹 ¿Qué son las clases en JavaScript?
+Las clases son una forma de definir objetos en JavaScript usando `class`.
 
-🔥 **Ejemplo de `this` en diferentes contextos:**
+🔹 **Ejemplo:**
 ```js
-console.log(this); // Window (en navegador)
+class Persona {
+  constructor(nombre) {
+    this.nombre = nombre;
+  }
+  saludar() {
+    return `Hola, soy ${this.nombre}`;
+  }
+}
+const juan = new Persona("Juan");
+console.log(juan.saludar());
 ```
+
+---
+
+### 🔹 ¿Qué es la destrucción de objetos?
+Es una forma de extraer valores de objetos o arrays.
+
+🔹 **Ejemplo:**
 ```js
-const obj = {
-  nombre: "JS",
-  saludo: function() { console.log(this.nombre); }
-};
-obj.saludo(); // "JS"
-```
-**Arrow functions** no tienen su propio `this`:
-```js
-const arrow = () => console.log(this);
-arrow(); // Window (o global en Node.js)
+const usuario = { nombre: "Ana", edad: 25 };
+const { nombre, edad } = usuario;
+console.log(nombre, edad); // "Ana 25"
 ```
 
 ---
@@ -205,7 +231,3 @@ arrow(); // Window (o global en Node.js)
 🔗 **Cursos Recomendados**:  
 - [JavaScript: The Good Parts - Udemy](https://www.udemy.com/course/the-complete-javascript-course/)  
 
----
-
-🎯 **Conclusión**  
-JavaScript es un lenguaje versátil y poderoso. **Dominar estos conceptos te dará ventaja en entrevistas y proyectos reales.** 🚀
