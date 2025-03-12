@@ -20,7 +20,7 @@ Cada tema contiene preguntas comunes, ejemplos de código y recursos adicionales
 
 📌 **Temas Incluidos**:
 - **Git** → [Preguntas Frecuentes](fundamentos/git/readme.md)  
-- **HTML & CSS** → [Preguntas Frecuentes](fundamentos/html/readme.md)  ( ⚠️ En desarrollo ⚠️ )
+- **HTML & CSS** → [Preguntas Frecuentes](fundamentos/html/readme.md)
 - **JavaScript** → [Preguntas Frecuentes](fundamentos/javascript/readme.md) 
 - **POO (Programación Orientada a Objetos)** → [Preguntas Frecuentes](fundamentos/poo/readme.md)  
 
