@@ -2,19 +2,38 @@
 
 Este documento contiene una recopilación de preguntas comunes sobre JavaScript en entrevistas técnicas, con respuestas detalladas y ejemplos prácticos.
 
+🔹 **Cada pregunta está explicada en detalle en este mismo archivo.**  
+Puedes desplazarte hasta la sección correspondiente haciendo clic en el índice. 🚀
+
 ---
 
 ## 📌 **Índice**
 - [Preguntas y Respuestas](#-preguntas-y-respuestas)
-  1. [🔹 ¿Cuáles son los distintos tipos de datos en JavaScript?](#tipos-de-datos-en-javascript)
-  2. [🔹 Diferencias entre `==` y `===`](#-cuál-es-la-diferencia-entre-los-operadores--y-)
+  1. [🔹 ¿Cuáles son los distintos tipos de datos en JavaScript?](#-cuáles-son-los-distintos-tipos-de-datos-en-javascript)
+  2. [🔹 ¿Cuál es la diferencia entre los operadores `==` y `===`?](#-cuál-es-la-diferencia-entre-los-operadores--y-)
   3. [🔹 ¿Qué es la coerción implícita de tipos en JavaScript?](#-qué-es-la-coerción-implícita-de-tipos-en-javascript)
-  4. [🔹 Hoisting en JavaScript](#hoisting-en-javascript)
-  5. [🔹 ¿Qué es una Closure y cómo funciona?](#qué-es-una-closure-y-cómo-funciona)
-  6. [🔹 Callbacks vs Promises vs Async/Await](#callbacks-vs-promises-vs-asyncawait)
-  7. [🔹 ¿Qué es el Event Loop en JavaScript?](#qué-es-el-event-loop-en-javascript)
-  8. [🔹 Diferencias entre `var`, `let` y `const`](#diferencias-entre-var-let-y-const)
-  9. [🔹 ¿Qué es `this` en JavaScript?](#qué-es-this-en-javascript)
+  4. [🔹 ¿Es JavaScript un lenguaje de tipo estático o dinámico?](#-es-javascript-un-lenguaje-de-tipo-estático-o-dinámico)
+  5. [🔹 ¿Qué es la propiedad `NaN` en JavaScript?](#-qué-es-la-propiedad-nan-en-javascript)
+  6. [🔹 ¿Qué es el paso por valor y el paso por referencia?](#-qué-es-el-paso-por-valor-y-el-paso-por-referencia)
+  7. [🔹 ¿Qué son las funciones de orden superior en JavaScript?](#-qué-son-las-funciones-de-orden-superior-en-javascript)
+  8. [🔹 Explica los métodos `call()`, `apply()` y `bind()`](#-explica-los-métodos-call-apply-y-bind)
+  9. [🔹 ¿Qué es Currying en JavaScript?](#-qué-es-currying-en-javascript)
+  10. [🔹 Explique el alcance y la cadena de alcance en JavaScript](#-explique-el-alcance-y-la-cadena-de-alcance-en-javascript)
+  11. [🔹 ¿Qué son las devoluciones de llamada (Callbacks) en JavaScript?](#-qué-son-las-devoluciones-de-llamada-callbacks-en-javascript)
+  12. [🔹 ¿Cuál es la diferencia entre declaración de función y expresión de función?](#-cuál-es-la-diferencia-entre-declaración-de-función-y-expresión-de-función)
+  13. [🔹 ¿Qué son las Closures en JavaScript?](#-qué-son-las-closures-en-javascript)
+  14. [🔹 Explica ¿Qué es DOM y cómo funciona?](#-explica-qué-es-dom-y-cómo-funciona)
+  15. [🔹 ¿Qué son las importaciones y exportaciones en JavaScript?](#-qué-son-las-importaciones-y-exportaciones-en-javascript)
+  16. [🔹 ¿Cuál es la diferencia entre `Undefined`, `Undeclared` y `Null` en JavaScript?](#-cuál-es-la-diferencia-entre-undefined-undeclared-y-null-en-javascript)
+  17. [🔹 ¿Cuál es el uso de una función constructora en JavaScript?](#-cuál-es-el-uso-de-una-función-constructora-en-javascript)
+  18. [🔹 ¿Qué son las funciones de flecha?](#-qué-son-las-funciones-de-flecha)
+  19. [🔹 Diferencias entre `var`, `let` y `const`](#-diferencias-entre-var-let-y-const)
+  20. [🔹 ¿Qué es el parámetro `rest` y el operador `spread`?](#-qué-es-el-parámetro-rest-y-el-operador-spread)
+  21. [🔹 ¿Para qué sirven las promesas en JavaScript?](#-para-qué-sirven-las-promesas-en-javascript)
+  22. [🔹 ¿Qué son las clases en JavaScript?](#-qué-son-las-clases-en-javascript)
+  23. [🔹 ¿Qué son las funciones generadoras?](#-qué-son-las-funciones-generadoras)
+  24. [🔹 ¿Qué es la destructuración de objetos?](#-qué-es-la-destructuración-de-objetos)
+  25. [🔹 ¿Qué es una zona muerta temporal?](#-qué-es-una-zona-muerta-temporal)
 - [📚 Recursos adicionales](#recursos-adicionales)
 
 ---
