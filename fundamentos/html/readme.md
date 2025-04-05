@@ -184,6 +184,3 @@ button:hover {
 Porque las reglas se aplican en orden de prioridad (heredando estilos de sus padres) y, en caso de conflicto, el último estilo declarado (o el más específico) anula los anteriores.
 
 ---
-
-¡Listo! Este README cubre preguntas frecuentes sobre HTML y CSS con ejemplos prácticos. Puedes ampliarlo o modificarlo según tus necesidades.
-
