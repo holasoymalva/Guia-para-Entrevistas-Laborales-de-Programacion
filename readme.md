@@ -36,6 +36,8 @@ Exploramos preguntas y desafíos específicos para distintos stacks.
 - [MEAN Stack](stacks/mean) ( ⚠️ En desarrollo ⚠️ )
 - [MERN Stack](stacks/mern) ( ⚠️ En desarrollo ⚠️ )
 - [Java Backend](stacks/java-backend) ( ⚠️ En desarrollo ⚠️ )
+- [Python Backend](stacks/python-backend) ( ⚠️ En desarrollo ⚠️ )
+- [Python Web](stacks/python-web) ( ⚠️ En desarrollo ⚠️ )
 
 Cada stack tiene preguntas técnicas y ejercicios aplicados a entrevistas reales.
 
