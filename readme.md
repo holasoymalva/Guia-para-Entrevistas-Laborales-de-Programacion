@@ -49,8 +49,7 @@ Cada stack tiene preguntas técnicas y ejercicios aplicados a entrevistas reales
 La clave para superar entrevistas técnicas es la práctica constante. Aquí encontrarás desafíos y pruebas técnicas.
 
 📌 **Tipos de Pruebas**:
-- **Lógica y Algoritmos** → [Ejercicios](pruebas-tecnicas/desafios/logica) ( ⚠️ En desarrollo ⚠️ )
-- **Estructuras de Datos** → [Ejercicios](pruebas-tecnicas/desafios/estructuras-de-datos) ( ⚠️ En desarrollo ⚠️ )
+- **Lógica, Algoritmos y Estructuras de Datos** → [Ejercicios](pruebas-tecnicas/desafios/logica) ( ⚠️ En desarrollo ⚠️ )
 - **Diseño de Sistemas** → [Ejercicios](pruebas-tecnicas/desafios/systems-design) ( ⚠️ En desarrollo ⚠️ )
 - **Desarrollo Frontend UI** → [Ejercicios](pruebas-tecnicas/desafios/frontend-ui) ( ⚠️ En desarrollo ⚠️ )
 
