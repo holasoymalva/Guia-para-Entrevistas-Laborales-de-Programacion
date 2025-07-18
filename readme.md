@@ -23,8 +23,8 @@ Cada tema contiene preguntas comunes, ejemplos de código y recursos adicionales
 - **HTML & CSS** → [Preguntas Frecuentes](fundamentos/html/readme.md)
 - **JavaScript** → [Preguntas Frecuentes](fundamentos/javascript/readme.md) 
 - **POO (Programación Orientada a Objetos)** → [Preguntas Frecuentes](fundamentos/poo/readme.md)
-- **Algoritmos y Estructuras de Datos** → [Preguntas Frecuentes](fundamentos/algoritmos/readme.md) ( ⚠️ En desarrollo ⚠️ )
-- **Diseño de Sistemas** → [Preguntas Frecuentes](fundamentos/systems-design/readme.md) ( ⚠️ En desarrollo ⚠️ )
+- **Algoritmos y Estructuras de Datos** → [Preguntas Frecuentes](fundamentos/algoritmos/readme.md)
+- **Diseño de Sistemas** → [Preguntas Frecuentes](fundamentos/systems-design/readme.md)
 
 ---
 
@@ -32,14 +32,8 @@ Cada tema contiene preguntas comunes, ejemplos de código y recursos adicionales
 Exploramos preguntas y desafíos específicos para distintos stacks.
 
 📌 **Stacks Incluidos**:
-- [React](stacks/react) ( ⚠️ En desarrollo ⚠️ )
-- [Angular](stacks/angular) ( ⚠️ En desarrollo ⚠️ )
+
 - [Node.js](stacks/node)  ( ⚠️ En desarrollo ⚠️ )
-- [MEAN Stack](stacks/mean) ( ⚠️ En desarrollo ⚠️ )
-- [MERN Stack](stacks/mern) ( ⚠️ En desarrollo ⚠️ )
-- [Java Backend](stacks/java-backend) ( ⚠️ En desarrollo ⚠️ )
-- [Python Backend](stacks/python-backend) ( ⚠️ En desarrollo ⚠️ )
-- [Python Web](stacks/python-web) ( ⚠️ En desarrollo ⚠️ )
 
 Cada stack tiene preguntas técnicas y ejercicios aplicados a entrevistas reales.
 
@@ -82,8 +76,6 @@ Prueba tus habilidades con entrevistas simuladas y escenarios reales.
 2. **Entrevistas de Código en Varios Lenguajes**
 3. **Casos Prácticos de Desarrollo**
    
-Accede a guías y ejemplos en la carpeta [Simulacros](simulacros/). ( ⚠️ En desarrollo ⚠️ )
-
 ---
 
 ## 🤝 Cómo Contribuir
