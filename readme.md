@@ -22,7 +22,9 @@ Cada tema contiene preguntas comunes, ejemplos de código y recursos adicionales
 - **Git** → [Preguntas Frecuentes](fundamentos/git/readme.md)  
 - **HTML & CSS** → [Preguntas Frecuentes](fundamentos/html/readme.md)
 - **JavaScript** → [Preguntas Frecuentes](fundamentos/javascript/readme.md) 
-- **POO (Programación Orientada a Objetos)** → [Preguntas Frecuentes](fundamentos/poo/readme.md)  
+- **POO (Programación Orientada a Objetos)** → [Preguntas Frecuentes](fundamentos/poo/readme.md)
+- **Algoritmos y Estructuras de Datos** → [Preguntas Frecuentes](fundamentos/algoritmos/readme.md) ( ⚠️ En desarrollo ⚠️ )
+- **Diseño de Sistemas** → [Preguntas Frecuentes](fundamentos/systems-design/readme.md) ( ⚠️ En desarrollo ⚠️ )
 
 ---
 
@@ -36,6 +38,8 @@ Exploramos preguntas y desafíos específicos para distintos stacks.
 - [MEAN Stack](stacks/mean) ( ⚠️ En desarrollo ⚠️ )
 - [MERN Stack](stacks/mern) ( ⚠️ En desarrollo ⚠️ )
 - [Java Backend](stacks/java-backend) ( ⚠️ En desarrollo ⚠️ )
+- [Python Backend](stacks/python-backend) ( ⚠️ En desarrollo ⚠️ )
+- [Python Web](stacks/python-web) ( ⚠️ En desarrollo ⚠️ )
 
 Cada stack tiene preguntas técnicas y ejercicios aplicados a entrevistas reales.
 
@@ -47,6 +51,7 @@ La clave para superar entrevistas técnicas es la práctica constante. Aquí enc
 📌 **Tipos de Pruebas**:
 - **Lógica y Algoritmos** → [Ejercicios](pruebas-tecnicas/desafios/logica) ( ⚠️ En desarrollo ⚠️ )
 - **Estructuras de Datos** → [Ejercicios](pruebas-tecnicas/desafios/estructuras-de-datos) ( ⚠️ En desarrollo ⚠️ )
+- **Diseño de Sistemas** → [Ejercicios](pruebas-tecnicas/desafios/systems-design) ( ⚠️ En desarrollo ⚠️ )
 - **Desarrollo Frontend UI** → [Ejercicios](pruebas-tecnicas/desafios/frontend-ui) ( ⚠️ En desarrollo ⚠️ )
 
 Ejemplo de un desafío:
