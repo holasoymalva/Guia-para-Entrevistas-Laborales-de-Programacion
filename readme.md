@@ -28,12 +28,12 @@ Cada tema contiene preguntas comunes, ejemplos de código y recursos adicionales
 
 ---
 
-## 🚀 Stacks Tecnológicos ( ⚠️ En desarrollo ⚠️ )
+## 🚀 Stacks Tecnológicos
 Exploramos preguntas y desafíos específicos para distintos stacks.
 
 📌 **Stacks Incluidos**:
 
-- [Node.js](stacks/node)  ( ⚠️ En desarrollo ⚠️ )
+- [Node.js](stacks/node)
 
 Cada stack tiene preguntas técnicas y ejercicios aplicados a entrevistas reales.
 
