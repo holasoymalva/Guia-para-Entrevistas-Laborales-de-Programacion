@@ -34,6 +34,7 @@ Exploramos preguntas y desafíos específicos para distintos stacks.
 📌 **Stacks Incluidos**:
 
 - [Node.js](stacks/node)
+- [React](stacks/react)
 
 Cada stack tiene preguntas técnicas y ejercicios aplicados a entrevistas reales.
 
@@ -74,6 +75,7 @@ Prueba tus habilidades con entrevistas simuladas y escenarios reales.
 1. **Entrevistas de Algoritmos y Lógica**
 2. **Entrevistas de Código en Varios Lenguajes**
 3. **Casos Prácticos de Desarrollo**
+4. **Frontend con React** → [Simulacro de componente funcional](stacks/react/readme.md)
    
 ---
 
