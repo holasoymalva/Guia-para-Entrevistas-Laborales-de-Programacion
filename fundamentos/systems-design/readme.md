@@ -141,7 +141,7 @@ Ejemplo: RabbitMQ, Kafka, AWS SQS.
 ## 📚 Recursos Adicionales
 
 - [System Design Primer (GitHub)](https://github.com/donnemartin/system-design-primer)
-- [Educative.io - Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
+- [Design Gurus - Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview)
 - [High Scalability Blog](http://highscalability.com/)
 - [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
 
